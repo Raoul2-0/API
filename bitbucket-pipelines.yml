@@ -1,0 +1,42 @@
+image: starefossen/ruby-node:2-5
+
+definitions:
+  caches:
+    bundler: ./vendor/bundle
+  services:
+    postgres:
+      image: postgres
+      environment:
+        POSTGRES_DB: ci_test
+        POSTGRES_USER: ci_test_user
+        POSTGRES_PASSWORD: ci_test_user_password    
+  steps: 
+    -step: &unittest 
+      name: "Run unit tests"
+      image: ruby:3.0.2
+      caches:
+        - bundler
+      script:
+        - export DATABASE_URL=postgres://ci_test_user:ci_test_user_password@localhost/ci_test 
+        - cp config/database.ci.yml config/database.yml
+        - gem install bundler:2.3.10
+        - gem update bundler
+        - gem update --system
+        - bundle install 
+        - chmod +x deploy-scripts/run_test.sh
+        - deploy-scripts/run_test.sh
+      services:
+        - postgres
+
+
+pipelines:
+  pull-requests:
+    '**': # PR from any branch to Develop  feature/test-file-feature
+      - step: *unittest
+  branches:
+    develop:
+      - step: *unittest
+    feature/test-file-feature:
+      - step: *unittest
+    master:
+     - step: *unittest 

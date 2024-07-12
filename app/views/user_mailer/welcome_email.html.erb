@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <%= render 'header' %>
+    </head>
+    <body>
+    <% @mode = "email_confirm"%>
+    <%= render 'body', locals: { school: @school, user: @user, url_token: @url_token, mode: @mode} %>
+    </body>
+</html>

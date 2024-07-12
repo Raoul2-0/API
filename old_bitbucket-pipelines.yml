@@ -1,0 +1,47 @@
+#  Template Ruby build
+
+#  This template allows you to validate your Ruby code.
+# This is a sample build configuration for Ruby.
+# Check our guides at https://confluence.atlassian.com/x/8r-5Mw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: ruby:3.0.2
+pipelines:
+  master:
+    - step:
+        caches:
+          #- bundler
+          - pip
+        script:
+          #- apt-get install software-properties-common
+          #- add-apt-repository ppa:deadsnakes/ppa
+          - apt-get update && apt-get install -y python3-pip
+          - python3 -V
+          #- curl -O https://bootstrap.pypa.io/get-pip.py
+          #- python get-pip.py
+          - pip3 install awsebcli --upgrade
+          - pip3 install awscli --upgrade
+          - gem install bundler:2.3.5
+          - bundle install #--path vendor/bundle
+          - rails db:migrate
+          #- rake db:setup
+          #- rake db:test:prepare
+          #- rspec
+          - aws --version
+          - eb init eLearning-api -r eu-central-1 -p "Ruby 3.0 running on 64bit Amazon Linux 2"
+          - eb deploy Elearningapi-env
+        services:
+          - postgres
+definitions:
+  caches:
+    #bundler: vendor/bundle
+    pip: ~/.cache/pip
+  services:
+    postgres:
+      image: postgres
+      environment:
+        POSTGRES_DB: <%= ENV.fetch('TEST_DB') %>
+        POSTGRES_USER: <%= ENV.fetch('DB_USERNAME_TEST') %>
+        POSTGRES_PASSWORD: <%= ENV.fetch('DB_PASSWORD_TEST') %>
+            

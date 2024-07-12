@@ -1,0 +1,2 @@
+class ConfigureActivityPolicy < ResourcePolicy
+end

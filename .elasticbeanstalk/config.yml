@@ -1,0 +1,19 @@
+branch-defaults:
+  develop:
+    environment: Elearningapi-env
+environment-defaults:
+  Elearningapi-env:
+    branch: null
+    repository: null
+global:
+  application_name: elearning-api
+  default_ec2_keyname: null
+  default_platform: Ruby 3.0 running on 64bit Amazon Linux 2
+  default_region: eu-central-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
+  workspace_type: Application

@@ -1,0 +1,54 @@
+it:
+  global: 
+    welcome: "Benvenuto/a"
+    hello: "Ciao"
+    hey: "Ehi"
+    sincerely: "Cordiali saluti,"
+    link_not_working: "Se il pulsante precedente non funziona, copia e incolla il seguente link sul tuo browser"
+    address: "Indirizzo"
+    resource_not_found: "Risorsa non trovata"
+    resource_invalid: "Risorsa non valida"
+    deleted_resource: "%{resource_name} già cancellato"
+    overflow_attachment: "I record di %{resource_name} non possono avere più di %{limit_attachments} di allegato/i."
+    not_more_than_one_president: "Il presidente esiste già. Un'attività extra non può avere più di un presidente"
+    resource_not_belongs_to_school: "Questa risorsa non appartiene alla scuola %{school_denomination}"
+    missing_email: "E-mail mancante"
+    invalid_email: "Si prega di inserire un indirizzo e-mail valido"
+    email_already_used: "L'e-mail inserita è già utilizzata. Si prega di mettersi in contatto con l'amministratore per ulteriori informazioni"
+    current_scholastic_period_cannot_be_nil: "L'attuale periodo scolastico non può essere nullo"
+    general:error: "Si è verificato un errore durante l'esecuzione di questa azione."
+  user: "utente"
+
+  status:
+     0: Disabilitato
+     1: Attivato
+     3: Eliminato
+     4: Pubblicato
+
+  activerecord:
+    errors:
+      models:
+        staff:
+          attributes:
+            signature:
+              invalid_svg: "deve essere un SVG valido"
+        event:
+          attributes:
+            from: 
+              from_date_cannot_be_in_the_past: "non può essere nel passato"
+            to:
+              from_date_must_come_before_to_date: "deve essere successivo alla data From"
+            phases:
+              date_phases_are_valid: "La data della fase deve essere compresa tra le date di inizio e di fine dell'evento"
+              time_phases_are_valid: "L'ora di inizio della fase deve essere precedente all'ora di fine della fase"
+        school:
+          attributes:
+            identification_number: 
+              unique_identification_number: "Può esserci solo una  Super Scuola "
+              prevent_identification_number_modification: "Il numero di identificazione della Super scuola non può essere modificato"
+      controllers:
+        extra_activity:
+          not_more_than_one_cooperative: "Può esistere solo una cooperativa scolastica pubblica"
+        event:
+          record_type_id_must_exist: "record_type e record_id devono esiste"
+

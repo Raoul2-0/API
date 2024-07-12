@@ -1,0 +1,72 @@
+en:
+  eval_type:
+    denom: 'Evaluation Type'
+    values:
+      contin_ss:
+        denom: "Continuous Assessment"
+        desc: "Continuous assessment involves ongoing evaluation of a student's performance throughout the academic year. \
+              It may include class assignments, homework, quizzes, and class participation. These assessments are intended \
+              to provide regular feedback on a student's progress."
+      tests_examinations:
+        denom: "Class Tests and Examinations"
+        desc: "Students are often subjected to periodic class tests, mid-term examinations, and end-of-term examinations. \
+              These assessments are used to gauge students' understanding of the subjects being taught."
+      end_Sequence_exam:
+        denom: "End-of-Sequence Examinations"
+        desc: "In addition to continuous assessment, there are often end-of-sequence examinations, which are held at the \
+              end of specific units or sequences of the curriculum. These assessments help measure a student's grasp of \   
+              the material covered in those units."
+      mock_tests_exam:
+        denom: "Mock Examinations"
+        desc: "Mock examinations, also known as practice examinations, are often conducted prior to the official national \
+              exams (such as the GCE Ordinary and Advanced Levels). These mock exams help students prepare for the \
+              high-stakes final exams."
+      natinal_sexam:
+        denom: "National Examinations"
+      practical_exam:
+        denom: "Practical Examinations"
+        desc: "In subjects like science and technology, practical assessments are often part of the evaluation process. \
+              These evaluations may involve hands-on experiments, projects, or laboratory work."
+      oral_exam:
+        denom: "Oral Examinations"
+        desc: "Some subjects, especially languages and oral-based courses, may include oral examinations. \
+              These assessments evaluate students' speaking and communication skills"
+      course_projects:
+        denom: "Coursework and Projects"
+        desc: "In some cases, students are required to complete coursework or projects that are submitted and graded \
+              as part of the evaluation process."
+      overall_performance:
+        denom: "Overall Class Performance"
+        desc: "Teachers often consider a student's overall class performance, which may include participation in class \
+              discussions, group work, and behavior."
+  diary_type:
+    denom: 'diary Type'
+  collab_cat:
+    denom: 'Collaborator category'
+    values:
+      educational_partners:
+        denom: "Educational Partners"
+        desc: "Educational companies, publishers, and content providers may collaborate with \
+              schools to offer learning materials, software, or educational resources."
+      mentorship_rograms:
+        denom: "Mentorship Programs"
+        desc: "External mentors or mentorship organizations partner with schools to provide \
+              students with guidance and career advice."
+  
+  course_subject:
+    denom: "Course suject"
+    values:
+      scien_sub:
+        denom: "Scientific subjects"
+        desc: "Scientific subjects include all disciplines focusing on the study of natural phenomena, \
+              mathematics and the application of the scientific method.  It is designed for students wishing \
+              to explore the laws of nature and understand the principles that govern the universe and technology."
+      lit_sub:
+        denom: "Literary subjects"
+        desc: "Literary subjects are ideal for students interested in exploring diverse cultures, analyzing \
+              literary texts, and studying historical events. It fosters the development of critical, reflective, \
+              written and oral expression skills."
+      comp_sub:
+        denom: "Complementary subjects"
+        desc: "Complementary subjects encompass a variety of disciplines that enrich the standard curriculum. They \
+              are essential for shaping well-rounded individuals who are aware of social and personal issues."

@@ -1,0 +1,834 @@
+openapi: 3.0.3
+info:
+  title: API de gestion de cours
+  description: Rails API 
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:3033
+tags:
+  - name: Users
+    description: Everything related to users
+  - name: Courses
+    description: Everything related to courses
+  - name: Teachers
+    description: Everything related to teachers of course
+  - name: Homeworks
+    description: Everything related to homeworks
+  - name: Submissions
+    description: Everything related to homework submitted by learners
+  - name: Solutions
+    description: Everything related to solution of homework
+paths:
+  /api/v1/login:
+    post:
+      tags: [Users]
+      summary: Authenticate user and generate access token
+      description: This endpoint accepts user credentials and generates a JSON Web Token (JWT) for successful authentication.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  description: The user's email address 
+                  example: "tachomwabor@gmail.com"
+                password:
+                  type: string
+                  format: password
+                  description: The user's password
+                  example: "azerty"
+      responses:
+        '200':
+          description: Connexion reussie
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  bearer_token:
+                    type: string
+                    example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiZXhwIjoxNjU3ODk0MzE5LCJpYXQiOjE2NTc4ODk3MTl9.eyJpZCI6MSwidXNlcm5hbWUiOiJqb2huQGRvZW1sZS5jb20iLCJlbWFpbCI6Imppb2huQGRvZW1sZS5jb20ifQ"
+  
+  /api/v1/logout:
+    delete:
+      tags: [Users]
+      summary: Logout the current user
+      description: Invalidates the current user's session and logs them out
+      responses:
+        '204':
+          description: Successful logout
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    description: Error message
+        '500':
+          description: Internal server error
+
+  /api/v1/homeworks?record_type=course&record_id={course_id}:
+    get:
+      tags: [Homeworks]
+      summary: List of homework
+      operationID: getHomeworks
+      parameters:
+        - name: course_id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Returns a collection of homeworks
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ArrayofHomework'
+        '404':
+          description: Returns an error, no elements found
+    post:
+      tags: [Homeworks]
+      summary: Create a new homework
+      operationID: postHomework
+      parameters:
+        - name: course_id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Homework'
+      responses:
+        '200':
+          description: Homework created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Homework'
+
+  /api/v1/homeworks/{id}?record_type=course&record_id={course_id}:
+    get:
+      tags: [Homeworks]
+      summary: Collect a homework
+      operationID: getHomework
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the homework
+          required: true
+          schema:
+            type: integer
+        - name: course_id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Returns a homework
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Homework'
+        '404':
+          description: Returns an error, no elements found
+
+  /api/v1/homeworks/{id}:
+    put:
+      summary: Update a homework
+      description: Updates an existing homework resource with the provided information.
+      tags: [Homeworks]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: string
+          description: The ID of the homework to update
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Homework'
+      responses:
+        '200':
+          description: Homework updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Homework'
+        '400':
+          description: Bad Request
+        '404':
+          description: Homework not found
+    delete:
+      tags: [Homeworks]
+      summary: Delete a homework
+      operationID: deleteHomework
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the homework
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Homework successfully deleted
+        '404':
+          description: Returns an error, no elements found
+
+  /api/v1/submissions?record_type={element}&record_id={id}:
+    get:
+      tags: [Submissions]
+      summary: List of submission
+      operationID: getSubmissions
+      parameters:
+        - name: element
+          in: path
+          description: The type of element
+          required: true
+          schema:
+            type: string
+        - name: id
+          in: path
+          description: The ID of the element
+          required: true
+          schema:
+            type: integer
+
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Returns a collection of submissions
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ArrayofSubmission'
+        '404':
+          description: Returns an error, no elements found
+
+  /api/v1/submissions:
+    post:
+      tags: [Submissions]
+      summary: Create a new submission
+      operationID: postSubmission
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Submission'
+      responses:
+        '200':
+          description: Submission created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Submission'
+
+  /api/v1/submissions/{id}:
+    put:
+      summary: Update a submission
+      description: Updates an existing submission resource with the provided information.
+      tags: [Submissions]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: string
+          description: The ID of the submission to update
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Submission'
+      responses:
+        '200':
+          description: submission updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Submission'
+        '400':
+          description: Bad Request
+        '404':
+          description: submission not found
+    delete:
+      tags: [Submissions]
+      summary: Delete a submission
+      operationID: deletesubmission
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the submission
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: submission successfully deleted
+        '404':
+          description: Returns an error, no elements found
+
+  /api/v1/solutions?record_type={element}&record_id={id}:
+    get:
+      tags: [Solutions]
+      summary: List of solution
+      operationID: getSolutions
+      parameters:
+        - name: element
+          in: path
+          description: The type of element
+          required: true
+          schema:
+            type: string
+        - name: id
+          in: path
+          description: The ID of the element
+          required: true
+          schema:
+            type: integer
+
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Returns a collection of solutions
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ArrayofSolution'
+        '404':
+          description: Returns an error, no elements found
+
+    post:
+      tags: [Solutions]
+      summary: Create a new solution
+      operationID: postSolution
+      parameters:
+        - name: element
+          in: path
+          description: The type of element
+          required: true
+          schema:
+            type: string
+        - name: id
+          in: path
+          description: The ID of the element
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Solution'
+      responses:
+        '200':
+          description: solution created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Solution'
+
+  /api/v1/solutions/{id}:
+    put:
+      summary: Update a solution
+      description: Updates an existing solution resource with the provided information.
+      tags: [Solutions]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: string
+          description: The ID of the solution to update
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Solution'
+      responses:
+        '200':
+          description: solution updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Solution'
+        '400':
+          description: Bad Request
+        '404':
+          description: solution not found
+    delete:
+      tags: [Solutions]
+      summary: Remove a solution
+      operationID: deletesolution
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the solution
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: solution successfully deleted
+        '404':
+          description: Returns an error, no elements found
+
+  /api/v1/courses?record_type={element}&record_id={id}:
+    get:
+      tags: [Courses]
+      summary: List of course
+      operationID: getCourses
+      parameters:
+        - name: element
+          in: path
+          description: The type of element
+          required: true
+          schema:
+            type: string
+        - name: id
+          in: path
+          description: The ID of the element
+          required: true
+          schema:
+            type: integer
+
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Returns a collection of courses
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ArrayofCourse'
+        '404':
+          description: Returns an error, no elements found
+
+    post:
+      tags: [Courses]
+      summary: Create a new course
+      operationID: postCourse
+      parameters:
+        - name: element
+          in: path
+          description: The type of element
+          required: true
+          schema:
+            type: string
+        - name: id
+          in: path
+          description: The ID of the element
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Course'
+      responses:
+        '200':
+          description: course created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Course'
+
+  /api/v1/courses/{id}:
+    put:
+      summary: Update a course
+      description: Updates an existing course resource with the provided information.
+      tags: [Courses]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: string
+          description: The ID of the course to update
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Course'
+      responses:
+        '200':
+          description: course updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Course'
+        '400':
+          description: Bad Request
+        '404':
+          description: course not found
+    delete:
+      tags: [Courses]
+      summary: Remove a course
+      operationID: deletecourse
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: course successfully deleted
+        '404':
+          description: Returns an error, no elements found
+
+  /api/v1/courses/{id}/teachers:
+    get:
+      tags: [Teachers]
+      summary: List of course's teachers
+      operationID: getteachers
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Returns a collection of teachers
+        '404':
+          description: Returns an error, no elements found
+
+  /api/v1/courses/{id}/add_teacher?serve_id={serve_id}:
+    post:
+      tags: [Teachers]
+      summary: assign a teacher to a course
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+        - name: serve_id
+          in: path
+          description: The ID of the teacher
+          required: true
+          schema:
+            type: integer
+
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Teacher added
+        '404':
+          description: Teacher not found
+    
+  /api/v1/courses/{id}/remove_teacher?serve_id={serve_id}:
+    delete:
+      tags: [Teachers]
+      summary: remove a teacher of a course
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+        - name: serve_id
+          in: path
+          description: The ID of the teacher
+          required: true
+          schema:
+            type: integer
+
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Teacher successfully retired
+        '404':
+          description: Teacher not found
+
+  /api/v1/courses/{id}/set_main_teacher?serve_id={serve_id}:
+    patch:
+      tags: [Teachers]
+      summary: assign a main teacher to a course
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+        - name: serve_id
+          in: path
+          description: The ID of the main teacher
+          required: true
+          schema:
+            type: integer
+
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Teacher's Status changed successfully
+        '404':
+          description: Teacher not found
+
+  /api/v1/courses/{id}/remove_main_teacher?serve_id={serve_id}:
+    patch:
+      tags: [Teachers]
+      summary: remove a main teacher of a course
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the course
+          required: true
+          schema:
+            type: integer
+        - name: serve_id
+          in: path
+          description: The ID of the main teacher
+          required: true
+          schema:
+            type: integer
+
+      security:
+        - BearerAuth: []
+      responses: 
+        '200':
+          description: Teacher's Status changed successfully
+        '404':
+          description: Teacher not found
+    
+components:
+  schemas:
+    Homework:
+      type: object
+      properties:
+        denomination:
+          type: string          
+          description: "Title of th e homework"          
+        description:          
+          type: string
+          description: "the details"                 
+        due_date:
+          type: string
+          description: on the due date of the assignment
+        optional:
+          type: boolean
+          description: The state of the omework
+        serve_id:
+          type: integer
+          description: The identifiant of a teacher
+      example:
+          denomination: TD Algebre
+          description: Réaliser un exercice de maths page 46 CIAM
+          due_date: '2024-07-04'
+          optional: 'true'
+          serve_id: 1
+
+    ArrayofHomework:
+      type: array
+      items:
+        $ref: '#/components/schemas/Homework'
+      example:
+        - id: 1,
+          denomination: TD Algebre
+          description: Réaliser un exercice de maths page 46 CIAM
+          due_date: '2024-07-04'
+          optional: 'true'
+          serve_id: '1'
+        - id: 2,
+          denomination: TD Algo
+          description: Ecriver l'algorithme du tri rapide
+          due_date: '2024-07-04'
+          optional: 'false'
+          serve_id: '2'
+
+    Submission:
+      type: object
+      properties:
+        denomination:
+          type: string          
+          description: "Title of the homework"          
+        description:          
+          type: string
+          description: "the details"                 
+        teacher_comment:
+          type: string
+          description: the comment of a teacher on a homework submitted
+        attend_scholastic_period_id:
+          type: boolean
+          description: The identifiant of the learner
+        homework_id:
+          type: integer
+          description: The identifiant of a homework
+      example:
+          denomination: TD Algebre
+          description: On résout l'équation homogène y+2y=0 dont les solutions sont les fonctions t↦Ce2t, C∈R. On cherche une solution particulière et on remarque que la fonction constante y(t)=2 est solution. Les solutions de l'équation sont donc les fonctions y(t)=2+Ce2t. On a ensuite y(1)=3⟺2+Ce2=3⟺C=−e2. Finalement, la seule solution du problème considéré est y(t)=−e2−2t−2 .on résout l'équation homogène 2y′−3y=0 dont les solutions sont les fonctions t↦Ce32t. On cherche une solution particulière et on remarque que la fonction constante y(t)=−3 est solution. Les solutions de l'équation différentielle sont donc les fonctions y(t)=−3+Ce32t. On a ensuite y(−1)=1⟺−3+Ce−32=1⟺C=4e32. Finalement, la seule solution du problème considéré est y(t)=4e32(1+t)3.
+          teacher_comment: 'passable'
+          attend_scholastic_period_id: 1
+          homework_id: 1
+    ArrayofSubmission:
+      type: array
+      items:
+        $ref: '#/components/schemas/Submission'
+      example:
+        - id: 1
+          denomination: TD Algebre
+          description: On résout l'équation homogène y+2y=0 dont les solutions sont les fonctions t↦Ce2t, C∈R. On cherche une solution particulière et on remarque que la fonction constante y(t)=2 est solution. Les solutions de l'équation sont donc les fonctions y(t)=2+Ce2t. On a ensuite y(1)=3⟺2+Ce2=3⟺C=−e2. Finalement, la seule solution du problème considéré est y(t)=−e2−2t−2 .on résout l'équation homogène 2y′−3y=0 dont les solutions sont les fonctions t↦Ce32t. On cherche une solution particulière et on remarque que la fonction constante y(t)=−3 est solution. Les solutions de l'équation différentielle sont donc les fonctions y(t)=−3+Ce32t. On a ensuite y(−1)=1⟺−3+Ce−32=1⟺C=4e32. Finalement, la seule solution du problème considéré est y(t)=4e32(1+t)3.
+          teacher_comment: 'passable'
+          attend_scholastic_period_id: 1
+          homework_id: 1
+        - id: 2
+          denomination: TD Algebre
+          description: On résout l'équation homogène y+2y=0 dont les solutions sont les fonctions t↦Ce2t, C∈R. On cherche une solution particulière et on remarque que la fonction constante y(t)=2 est solution. Les solutions de l'équation sont donc les fonctions y(t)=2+Ce2t. On a ensuite y(1)=3⟺2+Ce2=3⟺C=−e2. Finalement, la seule solution du problème considéré est y(t)=−e2−2t−2 .on résout l'équation homogène 2y′−3y=0 dont les solutions sont les fonctions t↦Ce32t. On cherche une solution particulière et on remarque que la fonction constante y(t)=−3 est solution. Les solutions de l'équation différentielle sont donc les fonctions y(t)=−3+Ce32t. On a ensuite y(−1)=1⟺−3+Ce−32=1⟺C=4e32. Finalement, la seule solution du problème considéré est y(t)=4e32(1+t)3.
+          teacher_comment: 'passable'
+          attend_scholastic_period_id: 1
+          homework_id: 1
+
+    Solution:
+      type: object
+      properties:
+        denomination:
+          type: string          
+          description: "Title of the solution"          
+        description:          
+          type: string
+          description: "the details"
+        homework_id:
+          type: integer
+          description: The identifiant of a homework 
+      example:
+          denomination: solution du TD Algebre
+          description: On résout l'équation homogène y+2y=0 dont les solutions sont les fonctions t↦Ce2t, C∈R. On cherche une solution particulière et on remarque que la fonction constante y(t)=2 est solution. Les solutions de l'équation sont donc les fonctions y(t)=2+Ce2t. On a ensuite y(1)=3⟺2+Ce2=3⟺C=−e2. Finalement, la seule solution du problème considéré est y(t)=−e2−2t−2 .on résout l'équation homogène 2y′−3y=0 dont les solutions sont les fonctions t↦Ce32t. On cherche une solution particulière et on remarque que la fonction constante y(t)=−3 est solution. Les solutions de l'équation différentielle sont donc les fonctions y(t)=−3+Ce32t. On a ensuite y(−1)=1⟺−3+Ce−32=1⟺C=4e32. Finalement, la seule solution du problème considéré est y(t)=4e32(1+t)3.
+          homework_id: 1
+    ArrayofSolution:
+      type: array
+      items:
+        $ref: '#/components/schemas/Solution'
+      example:
+        - id: 1
+          denomination: solution du TD Algebre
+          description: On résout l'équation homogène y+2y=0 dont les solutions sont les fonctions t↦Ce2t, C∈R. On cherche une solution particulière et on remarque que la fonction constante y(t)=2 est solution. Les solutions de l'équation sont donc les fonctions y(t)=2+Ce2t. On a ensuite y(1)=3⟺2+Ce2=3⟺C=−e2. Finalement, la seule solution du problème considéré est y(t)=−e2−2t−2 .on résout l'équation homogène 2y′−3y=0 dont les solutions sont les fonctions t↦Ce32t. On cherche une solution particulière et on remarque que la fonction constante y(t)=−3 est solution. Les solutions de l'équation différentielle sont donc les fonctions y(t)=−3+Ce32t. On a ensuite y(−1)=1⟺−3+Ce−32=1⟺C=4e32. Finalement, la seule solution du problème considéré est y(t)=4e32(1+t)3.
+          homework_id: 1
+        - id: 2
+          denomination: solution du TD Algebre
+          description: On résout l'équation homogène y+2y=0 dont les solutions sont les fonctions t↦Ce2t, C∈R. On cherche une solution particulière et on remarque que la fonction constante y(t)=2 est solution. Les solutions de l'équation sont donc les fonctions y(t)=2+Ce2t. On a ensuite y(1)=3⟺2+Ce2=3⟺C=−e2. Finalement, la seule solution du problème considéré est y(t)=−e2−2t−2 .on résout l'équation homogène 2y′−3y=0 dont les solutions sont les fonctions t↦Ce32t. On cherche une solution particulière et on remarque que la fonction constante y(t)=−3 est solution. Les solutions de l'équation différentielle sont donc les fonctions y(t)=−3+Ce32t. On a ensuite y(−1)=1⟺−3+Ce−32=1⟺C=4e32. Finalement, la seule solution du problème considéré est y(t)=4e32(1+t)3.
+          homework_id: 4
+    Course:
+      type: object
+      properties:
+        code:          
+          type: string
+          description: "the code of course"
+        subject:
+          type: string          
+          description: "the subject to which the course belongs"
+        denomination:
+          type: string          
+          description: "Title of the course"          
+        description:          
+          type: string
+          description: "the details"
+        classroom_id:
+          type: integer
+          description: The identifiant of the classroom
+        course_generality_id:
+          type: integer
+          description: The identifiant of the course_generality
+      example:
+          code: LPS12
+          subject: Matieres scientifiques
+          denomination: Mathematiques
+          description: Analyse numerique et Geometrie
+          classroom_id: 2
+          course_generality_id: 2
+    ArrayofCourse:
+      type: array
+      items:
+        $ref: '#/components/schemas/Course'
+      example:
+        - id: 1
+          code: MATH14
+          subject: Matieres scientifiques
+          denomination: Mathematiques
+          description: Analyse numerique et Geometrie
+          classroom_id: 2
+          course_generality_id: 2
+        - id: 2
+          code: MATH14
+          subject: Matieres scientifiques
+          denomination: Mathematiques
+          description: Analyse numerique et Geometrie
+          classroom_id: 2
+          course_generality_id: 2
+
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

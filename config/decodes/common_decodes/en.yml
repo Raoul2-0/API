@@ -1,0 +1,45 @@
+en:
+  gender:
+    denom: 'Gender'
+    common: true
+    desc: ''
+    values: 
+      male:
+        denom: "Male"
+        desc: ''
+      female:
+        denom: "Female"
+
+  course_coef:
+    denom: "Course coefficient"
+    values:
+      one:
+        denom: 1
+        desc: "The course weight is 1"
+      two:
+        denom: 2
+        desc: "The course weight is 2"
+      three:
+        denom: 3
+        desc: "The course weight is 3"
+      four:
+        denom: 4
+        desc: "The course weight is 4"
+      five:
+        denom: 5
+        desc: "The course weight is 5"
+      six:
+        denom: 6
+        desc: "The course weight is 6"
+      seven:
+        denom: 7
+        desc: "The course weight is 7"
+      eight:
+        denom: 8
+        desc: "The course weight is 8"
+      nine:
+        denom: 9
+        desc: "The course weight is 9"
+      ten:
+        denom: 10
+        desc: "The course weight is 10"

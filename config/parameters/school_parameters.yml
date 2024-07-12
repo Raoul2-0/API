@@ -1,0 +1,44 @@
+
+attachments:
+  link_file: true
+
+staff:
+  jobs: []
+  profiles: []
+
+session:
+  duration: 20
+  
+attachments_length:
+  theme: 1
+  gallery: 5
+  
+language:
+  default: 'en'
+
+eschool:
+  enabled: true
+  
+registration:
+  enable: true
+
+course: 
+  enable: true
+
+classroom:
+  enable: true
+
+online_booklet:
+  enable: true
+
+student:
+  enable: true
+  
+administration:
+  enable: true
+ 
+abscence:
+  enable: true
+
+diary:
+  enable: true

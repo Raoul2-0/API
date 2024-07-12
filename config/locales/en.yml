@@ -1,0 +1,97 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  global: 
+    welcome: "Welcome"
+    hello: "Hello"
+    hey: "Hey"
+    sincerely: "Sincerely,"
+    link_not_working: "If the previous button does not work, copy and paste the following link on your browser"
+    address: "Address"
+    resource_not_found: "Resource not found"
+    resource_invalid: "Invalid resource"
+    deleted_resource: "%{resource_name} already deleted"
+    overflow_attachment: "%{resource_name} records cannot have more than %{limit_attachments} attachment/s"
+    not_more_than_one_president: "President already exist. An extra activity cannot have more than one president"
+    error: "An unexpected error occurred."
+    resource_not_belongs_to_school: "This resource does not belong to the school %{school_denomination}"
+    missing_email: "Email is missing"
+    invalid_email: "Please insert a valid E-mail address"
+    email_already_used: "The inserted Email is already used. Please get in touch with the administrator for more information"
+    current_scholastic_period_cannot_be_nil: "The current scholastic period cannot be nil"
+    general:error: "An error occurred while performing this action."
+  user: "user"
+  
+  time:
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      short: "%d %b %H:%M"
+      small: "%d/%m/%Y"
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      human: "%d %B %Y"
+      day_human: "%a, %d %B %Y"
+      h_datetime: "%a, %d %b %Y %H:%M:%S %z"
+      datetime: "%d %b %H:%M"
+  status:
+    0: Disabled
+    1: Activated
+    3: Deleted
+    4: Published
+
+  activerecord:
+    errors:
+      models:
+        staff:
+          attributes:
+            signature:
+              invalid_svg: "must be a valid SVG"
+        event:
+          attributes:
+            from: 
+              from_date_cannot_be_in_the_past: "can't be in the past"
+            to:
+              from_date_must_come_before_to_date: "must come after From date"
+            phases:
+              date_phases_are_valid: "Phase date must be between event start and end dates"
+              time_phases_are_valid: "Phase start time must be before phase end time"
+        school:
+          attributes:
+            identification_number: 
+              unique_identification_number: "There can be only one Super School"
+              prevent_identification_number_modification: "Super school identification number cannot be modified"
+      controllers:
+        extra_activity:
+          not_more_than_one_cooperative: "There can only be one public school cooperative"
+        event:
+          record_type_id_must_exist: "record_type and record_id must_exist"

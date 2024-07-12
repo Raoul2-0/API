@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/manick/Documents/elearning-course-report-card-api/spec/controllers/api/v1/courses_controller_spec.rb:23 :
+
+    [1;34m18[0m:       perform_request(user=admin_user,end_point=[31m[1;31m"[0m[31m/api/v1/scholastic_periods/[1;31m"[0m[31m[0m, payload=build_scholastic_period, method=[31m[1;31m"[0m[31mpost[1;31m"[0m[31m[0m, institutionalisable=[1;36mfalse[0m)
+    [1;34m19[0m: 
+    [1;34m20[0m:       @scholastic_period_id = response_json[[31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m]
+    [1;34m21[0m:     [32mend[0m
+    [1;34m22[0m:     
+ => [1;34m23[0m:     before [32mdo[0m
+    [1;34m24[0m:       perform_request(user=admin_user,end_point=[31m[1;31m"[0m[31m/api/v1/courses/[1;31m"[0m[31m[0m, payload=course_payload(course, school, @scholastic_period_id), method=[31m[1;31m"[0m[31mpost[1;31m"[0m[31m[0m, institutionalisable=[1;36mfalse[0m)
+    [1;34m25[0m:     [32mend[0m
+    [1;34m26[0m: 
+    [1;34m27[0m:     it_behaves_like [31m[1;31m'[0m[31mShareable[1;31m'[0m[31m[0m, { [35mcontext[0m: [31m[1;31m'[0m[31mcreation_successful[1;31m'[0m[31m[0m, [35mmodel_name[0m: [31m[1;31m'[0m[31mcourse[1;31m'[0m[31m[0m, [35mexecute_query[0m: [1;36mfalse[0m }
+    [1;34m28[0m:   [32mend[0m
+

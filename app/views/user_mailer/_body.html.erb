@@ -1,0 +1,67 @@
+<div class="container">
+ <div class="header">
+     <div class="left-content">
+     <table cellspacing="0">
+     <tr>
+          <td class="logo"><%= image_tag("#{ENV.fetch('ELEARNING_HOST')}/images/elearning-images/logo.png", width: '110',  height: 'auto') %></td>
+       <td  style="vertical-align:bottom;text-align:left;padding-left: 18px;">
+           <div>
+                <span class="school-devise"> <%= @school.denomination %></span>
+                <% if @school.sub_denomination != nil %>
+                <span class="school-name"><%= @school.sub_denomination %></span> 
+                <% end %>
+           </div>
+       </td>
+     </tr>
+    </table>
+    <br>
+       <div class="banner">
+           <%= image_tag("#{ENV.fetch('ELEARNING_HOST')}/images/elearning-images/banner.jpg",  width: '100%',  height: 'auto') %>
+            <div class="descriptif-text" style="font-size: 20px; font-weight: bold">
+                 <%= @school.slogan %>
+           </div>
+     </div>
+   
+ </div>
+
+
+<div class=" main-container">
+    <% if @mode == "email_confirm" %>
+    <h1><%=t 'emailConfirmationInfo.title' %></h1>
+    <% else %>
+    <h1><%=t 'password_resets.title' %></h1>
+    <% end %>
+    <p class="text-size">
+      <%= t 'global.hello'%> <span class="fname"> <%= @user.first_name %> <%= @user.last_name %> </span>!
+    </p>
+
+    <p class="text-size">
+      <% if @mode == "email_confirm" %>
+        <%=t 'emailConfirmationInfo.message1'%>  
+        <%= link_to "#{@school.denomination}", ENV.fetch('ELEARNING_HOST')%>
+        <%=t 'emailConfirmationInfo.message2'%>
+       <% else %>
+        <%=t 'password_resets.message1'%>  
+        <%=t 'password_resets.message2'%>
+       <% end %>
+    </p>
+    
+    <% if @mode == "email_confirm" %>
+      <%= link_to "#{t 'emailConfirmationInfo.accountConfirm'}", @url_token, class: "button" %>
+    <% else %>
+      
+    <%= link_to "#{t 'password_resets.passwordConfirm'}", @url_token, class: "button"%>
+
+    <% end %>
+    <p class="link-text"> <%=t 'global.link_not_working'%></p>
+    
+    <p class="link">
+        <%= @url_token %>
+    </p>
+</div>
+
+  <div class="footer">  
+      <%= render 'footer', locals: { school: @school} %>  
+  </div>
+
+</div>

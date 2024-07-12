@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "link_curiculum": {
+      "type": ["string", "null"]
+    },
+    "compagny_name": {
+      "type": ["string", "null"]
+    },
+    "compagny_adress": {
+      "type": ["string", "null"]
+    },
+    "compagny_email": {
+      "type": ["string", "null"]
+    },
+    "compagny_phone": {
+      "type": ["string", "null"]
+    },
+    "personal_website": {
+      "type": ["string", "null"]
+    }
+  }
+}

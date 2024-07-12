@@ -1,0 +1,1545 @@
+
+:en:
+  1:
+    :cod: 'E_GE'
+    :system: 'ENGLISH SUB-SYSTEM'
+    :denomination: 'GENERAL EDUCATION'
+    :description: ''
+    :specialties:
+      11:
+        :cod: 11
+        :group: 'ARTS'
+        :denomination: 'A1'
+        :description: 'FRENCH, LITERATURE AND HISTORY'
+      12:
+        :cod: 12
+        :group: 'ARTS'
+        :denomination: 'A2'
+        :description: 'GEOGRAPHY, ECONOMICS AND HISTORY'
+      13:
+        :cod: 13
+        :group: 'ARTS'
+        :denomination: 'A3'
+        :description: 'LITERATURE, HISTORY AND ECONOMICS'
+      14:
+        :cod: 14
+        :group: 'ARTS'
+        :denomination: 'A4'
+        :description: 'GEOGRAPHY, ECONOMICS AND MATHEMATICS'
+      15:
+        :cod: 15
+        :group: 'ARTS'
+        :denomination: 'A5'
+        :description: 'LITERATURE, PHILOSOPHY AND MATHEMATICS'
+      16:
+        :cod: 16
+        :group: 'ARTS'
+        :denomination: 'A6'
+        :description: 'LITERATURE, FRENCH, AND ONE (1) FOREIGN LANGUAGE'
+      17:
+        :cod: 17
+        :group: 'ARTS'
+        :denomination: 'A7'
+        :description: 'LITERATURE, CINEMATOGRAPHY AND COMPUTER SCIENCE'
+      18:
+        :cod: 18
+        :group: 'ARTS'
+        :denomination: 'A8'
+        :description: 'ARTS AND CRAFT AND NATIONAL LANGUAGE AND CULTURE'
+      19:
+        :cod: 19
+        :group: 'SCIENCE'
+        :denomination: 'S1'
+        :description: 'CHEMISTRY, PHYSICS AND MATHS'
+      110:
+        :cod: 110
+        :group: 'SCIENCE'
+        :denomination: 'S2'
+        :description: 'CHEMISTRY, PHYSICS AND BIOLOGY'
+      111:
+        :cod: 111
+        :group: 'SCIENCE'
+        :denomination: 'S3'
+        :description: 'BIOLOGY, CHEMISTRY AND PHYSICS'
+      112:
+        :cod: 112
+        :group: 'SCIENCE'
+        :denomination: 'S4'
+        :description: 'ARTS AND CRAFT AND NATIONAL LANGUAGE AND CULTURE'
+    :cycles:
+      11:
+        :cod: 'E_GE_C1'
+        :denomination: 'FIRST CYCLE'
+        :description: ''
+        :duration: '5 YEARS'
+        :phases:
+          111: 
+            :cod: 111
+            :denomination: 'FIRST PHASE'
+            :description: ''
+            :duration: '5 YEARS'
+            :certificate: 'GENERAL CERTIFICATE OF EDUCATION EXAMINATION ORDINARY LEVEL'
+            :class_levels:
+              1111:
+                :cod: 1111
+                :denomination: 'FROM 1'
+                :description: ''
+              1112:
+                :cod: 1112
+                :denomination: 'FROM 2'
+                :description: ''
+              1113:
+                :cod: 1113
+                :denomination: 'FROM 3'
+                :description: ''
+              1114:
+                :cod: 1114
+                :denomination: 'FROM 4'
+                :description: ''
+              1115:
+                :cod: 1115
+                :denomination: 'FROM 5'
+                :description: ''
+      12:
+        :cod: 'E_GE_C2'
+        :denomination: 'SECOND CYCLE'
+        :description: ''
+        :duration: '2 YEARS'
+        :phases:
+          121: 
+            :cod: 121
+            :denomination: 'FIRST CYCLE'
+            :description: ''
+            :duration: '2 YEARS'
+            :certificate: 'GENERAL CERTIFICATE OF EDUCATION EXAMINATION ADVANCED LEVEL'
+            :class_levels:
+              1211:
+                :cod: 1211
+                :denomination: 'FROM 6'
+                :description: ''
+              1212:
+                :cod: 1212
+                :denomination: 'FROM 7'
+                :description: ''
+  2:
+    :cod: 'E_TE'
+    :system: 'ENGLISH SUB-SYSTEM'
+    :denomination: 'TECHNICAL AND VOCATIONAL EDUCATION'
+    :specialties:
+      21:
+        :cod: 21
+        :group: 'COMMERCIAL'
+        :denomination: 'ACA'
+        :description: 'SECRETARIAT ADMINISTRATION AND COMMUNICATION'
+        :fam: 'STT'
+        :cycle: 22
+      22:
+        :cod: 22
+        :group: 'COMMERCIAL'
+        :denomination: 'ACC'
+        :description: 'MARKETING'
+        :fam: 'STT'
+        :cycle: 2
+      23:
+        :cod: 23
+        :group: 'COMMERCIAL'
+        :denomination: 'CG'
+        :description: 'ACCOUNTING'
+        :fam: 'STT'
+        :cycle: 2
+      24:
+        :cod: 24
+        :group: 'COMMERCIAL'
+        :denomination: 'ESF'
+        :description: 'HOME ECONOMICS'
+        :fam: 'STT'
+        :cycle: 1
+      25:
+        :cod: 25
+        :group: 'COMMERCIAL'
+        :denomination: 'ESF'
+        :description: 'HOME ECONOMICS'
+        :fam: 'STT'
+        :cycle: 2
+      26:
+        :cod: 26
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'CAPA'
+        :description: 'AUTOMOTIVE PAINT BODYWORK'
+        :fam: 'STT'
+        :cycle: 1
+      27:
+        :cod: 27
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'COOM'
+        :description: 'METALLIC FRAMEWORK CONSTRUCTION'
+        :fam: 'IND'
+        :cycle: 1
+      28:
+        :cod: 28
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'MAEL'
+        :description: 'AUTOMOBILE ELECTRICAL WORKS'
+        :fam: 'IND'
+        :cycle: 1
+      29:
+        :cod: 29
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'MAIN'
+        :description: 'DIESEL (INJECTION) ENGINE MECHANICS'
+        :fam: 'IND'
+        :cycle: 1
+      30:
+        :cod: 30
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'MARE'
+        :description: 'AUTOMOBILE REPAIR MECHANICS'
+        :fam: 'IND'
+        :cycle: 1
+      31:
+        :cod: 31
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'MEFA'
+        :description: 'MANUFACTURING MECHANICS'
+        :fam: 'IND'
+        :cycle: 1
+      32:
+        :cod: 32
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'MEFE'
+        :description: 'SHEET METAL WORK'
+        :fam: 'IND'
+        :cycle: 1
+      33:
+        :cod: 33
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'BIJO'
+        :description: 'JEWELRY'
+        :fam: 'IND'
+        :cycle: 2
+      34:
+        :cod: 34
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'E'
+        :description: 'MATHEMATICS AND MECHANICS'
+        :fam: 'IND'
+        :cycle: 2
+      35:
+        :cod: 35
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'F1'
+        :description: 'MANUFACTURING MECHANICS'
+        :fam: 'IND'
+        :cycle: 2
+      36:
+        :cod: 36
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'MA'
+        :description: 'AUTOMOBILE MECHANICS'
+        :fam: 'IND'
+        :cycle: 2
+      37:
+        :cod: 37
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'MEM'
+        :description: 'ELECTRO-MECHANICAL MAINTENANCE'
+        :fam: 'IND'
+        :cycle: 2
+      38:
+        :cod: 38
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES TECHNIQUES'
+        :denomination: 'MF/CM'
+        :description: 'SHEET METAL WORK AND METALLIC CONSTRUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      39:
+        :cod: 39
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'AICB'
+        :description: 'BIO-CHEMICAL INDUSTRY ASSISTANT'
+        :fam: 'IND'
+        :cycle: 1
+      40:
+        :cod: 40
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'AICI'
+        :description: 'CHEMICAL INDUSTRY ASSISTANT'
+        :fam: 'IND'
+        :cycle: 1
+      41:
+        :cod: 41
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'ELEQ'
+        :description: 'ELECTRICAL INSTALLATION'
+        :fam: 'IND'
+        :cycle: 1
+      42:
+        :cod: 42
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'ELME'
+        :description: 'ELECTRO-MECHANICS'
+        :fam: 'IND'
+        :cycle: 1
+      43:
+        :cod: 43
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'ELNI'
+        :description: 'ELECTRONICS'
+        :fam: 'IND'
+        :cycle: 1 
+      44:
+        :cod: 44
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'FRCL'
+        :description: 'REFRIGERATION AND AIR CONDITIONING'
+        :fam: 'IND'
+        :cycle: 1   
+      45:
+        :cod: 45
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'CI'
+        :description: 'INDUSTRIAL CHEMISTRY'
+        :fam: 'IND'
+        :cycle: 2 
+      46:
+        :cod: 46
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'F2'
+        :description: 'ELECTRONICS'
+        :fam: 'IND'
+        :cycle: 2
+      47:
+        :cod: 47
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'F3'
+        :description: 'ELECTRICAL TECHNOLOGY'
+        :fam: 'IND'
+        :cycle: 2
+      48:
+        :cod: 48
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'F5'
+        :description: 'REFRIGERATION AND AIR CONDITIONING'
+        :fam: 'IND'
+        :cycle: 2
+      49:
+        :cod: 49
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'F5'
+        :description: 'REFRIGERATION AND AIR CONDITIONING'
+        :fam: 'IND'
+        :cycle: 2
+      50:
+        :cod: 50
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'F7'
+        :description: 'BIOLOGICAL AND MEDICO-SANITARY SCIENCE AND TECHNOLOGY'
+        :fam: 'IND'
+        :cycle: 2
+      51:
+        :cod: 51
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'F8'
+        :description: 'SOCIAL HEALTH SCIENCES AND TECHNOLOGY'
+        :fam: 'IND'
+        :cycle: 2
+      52:
+        :cod: 52
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MEHB'
+        :description: 'HOSPITAL AND BIOMEDICAL EQUIPMENT MAINTENANCE'
+        :fam: 'IND'
+        :cycle: 2
+      53:
+        :cod: 53
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ELECTRICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MISE'
+        :description: 'MAINTENANCE AND INSTALLATION OF ELECTRONICS SYSTEMS'
+        :fam: 'IND'
+        :cycle: 2
+      54:
+        :cod: 54
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'CARR'
+        :description: 'TILE LAYING'
+        :fam: 'IND'
+        :cycle: 1
+      55:
+        :cod: 55
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'DEBA'
+        :description: 'DRAFTSMANSHIP'
+        :fam: 'IND'
+        :cycle: 1
+      56:
+        :cod: 56
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'MACO'
+        :description: 'MASONRY (BUILDING CONSTRUCTION)'
+        :fam: 'IND'
+        :cycle: 1
+      57:
+        :cod: 57
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'MENU'
+        :description: 'WOOD WORK'
+        :fam: 'IND'
+        :cycle: 1
+      58:
+        :cod: 58
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'EF'
+        :description: 'FORESTRY EXPLOITATION'
+        :fam: 'IND'
+        :cycle: 2
+      59:
+        :cod: 59
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'F4BA'
+        :description: 'BUILDING CONSTRUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      60:
+        :cod: 60
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'F4BE'
+        :description: 'DRAFTSMANSHIP'
+        :fam: 'IND'
+        :cycle: 2
+      61:
+        :cod: 61
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'F4TP'
+        :description: 'PUBLIC WORKS'
+        :fam: 'IND'
+        :cycle: 2
+      62:
+        :cod: 62
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'GTTO'
+        :description: 'SURVEYS - TOPOGRAPHY OPTION'
+        :fam: 'IND'
+        :cycle: 2
+      63:
+        :cod: 63
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'IB'
+        :description: 'WOOD PROCESSING INDUSTRY'
+        :fam: 'IND'
+        :cycle: 2
+      64:
+        :cod: 64
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'IS'
+        :description: 'SANITARY EQUIPMENT INSTALLATION'
+        :fam: 'IND'
+        :cycle: 2
+      65:
+        :cod: 65
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'CIVIL ENGINEERING TECHNIQUES'
+        :denomination: 'MEB'
+        :description: 'CARPENTRY / FURNITURE (WOOD WORK)'
+        :fam: 'IND'
+        :cycle: 2
+      66:
+        :cod: 66
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ART AND FASHION TECHNIQUES'
+        :denomination: 'COME'
+        :description: 'BESPOKE TAILORING'
+        :fam: 'IND'
+        :cycle: 1
+      67:
+        :cod: 67
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ART AND FASHION TECHNIQUES'
+        :denomination: 'DECOR'
+        :description: 'DECORATION'
+        :fam: 'IND'
+        :cycle: 1
+      68:
+        :cod: 68
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ART AND FASHION TECHNIQUES'
+        :denomination: 'ESCO'
+        :description: 'ESTHETICS AND HAIR DRESSING'
+        :fam: 'IND'
+        :cycle: 1
+      69:
+        :cod: 69
+        :group: 'INDUSTRIAL TECHNICAL EDUCATION (IND)'
+        :sub_group: 'ART AND FASHION TECHNIQUES'
+        :denomination: 'IH'
+        :description: 'CLOTHING INDUSTRY'
+        :fam: 'IND'
+        :cycle: 2
+        
+
+    :cycles:
+      21:
+        :cod: 'E_TE_C1'
+        :denomination: 'FIRST CYCLE'
+        :duration: '4 YEARS'
+        :phases:
+          211: 
+            :cod: 211
+            :duration: '4 YEARS'
+            :certificate: 'TECHNICAL AND VOCATIONAL EDUCATION EXAMINATION INTERMEDIATE LEVEL'
+            :class_levels:
+              2111:
+                :cod: 2111
+                :denomination: 'FROM 1'
+              2112:
+                :cod: 2112
+                :denomination: 'FROM 2'
+              2113:
+                :cod: 2113
+                :denomination: 'FROM 3'
+              2114:
+                :cod: 2114
+                :denomination: 'FROM 4'
+      22:
+        :cod: 'E_TE_C2'
+        :denomination: 'SECOND CYCLE'
+        :duration: '3 YEARS'
+        :phases:
+          221: 
+            :cod: 221
+            :duration: '3 YEARS'
+            :certificate: 'TECHNICAL AND VOCATIONAL EDUCATION EXAMINATION INTERMEDIATE LEVEL'
+            :class_levels:
+              2211:
+                :cod: 2211
+                :denomination: 'FROM 5'
+              2212:
+                :cod: 2212
+                :denomination: 'FROM 6'
+              2213:
+                :cod: 2213
+                :denomination: 'FROM 7'
+  3:
+    :cod: 'F_GE'
+    :denomination: 'GENERAL EDUCATION'
+    :system: 'FRENCH SUB-SYSTEM'
+    :specialties:
+      31:
+        :cod: 31
+        :group: 'A'
+        :denomination: 'A1'
+        :description: 'LETTERS, LATIN AND GREEK'
+      32:
+        :cod: 32
+        :group: 'A'
+        :denomination: 'A2'
+        :description: 'LETTERS, LATIN AND MODERN LANGUAGE II'
+      33:
+        :cod: 33
+        :group: 'A'
+        :denomination: 'A3'
+        :description: 'LETTERS AND LATIN'
+      34:
+        :cod: 34
+        :group: 'A'
+        :denomination: 'A4'
+        :description: 'LITERATURE, LIVING LANGUAGE II AND PHILOSOPHY'
+      35:
+        :cod: 35
+        :group: 'A'
+        :denomination: 'A5'
+        :description: 'LIVING LANGUAGES II AND III'
+      36:
+        :cod: 36
+        :group: 'A'
+        :denomination: 'AC'
+        :description: 'CINEMATIC ART'
+      37:
+        :cod: 37
+        :group: 'D'
+        :denomination: 'D'
+        :description: 'LIFE AND EARTH SCIENCES AND MATHEMATICS'
+      38:
+        :cod: 38
+        :group: 'C'
+        :denomination: 'C'
+        :description: 'MATHEMATICS AND PHYSICS'
+      39:
+        :cod: 39
+        :group: 'TI'
+        :denomination: 'D'
+        :description: 'INFORMATION TECHNOLOGY'
+      310:
+        :cod: 310
+        :group: 'BIL'
+        :denomination: 'BILINGUAL'
+        :description: 'FRENCH-ENGLISH AND ENGLISH-FRENCH'
+    :cycles:
+      31:
+        :cod: 'F_GE_C1'
+        :denomination: 'FIRST CYCLE'
+        :duration: '4 YEARS'
+        :phases:
+          311: 
+            :cod: 311
+            :duration: '4 YEARS'
+            :certificate: 'BEPC'
+            :class_levels:
+              311:
+                :cod: 311
+                :denomination: '6ÈME (SIXTH)'
+              312:
+                :cod: 312
+                :denomination: '5ÈME (FIFTH)'
+              313:
+                :cod: 313
+                :denomination: '4ÈME (FOURTH)'
+              314:
+                :cod: 314
+                :denomination: '3ÈME (THIRD)'
+      32:
+        :cod: 'F_GE_C2'
+        :denomination: 'SECOND CYCLE'
+        :duration: '3 YEARS'
+        :phases:
+          321: 
+            :cod: 321
+            :duration: '2 YEARS'
+            :certificate: 'PROBATOIRE'
+            :class_levels:
+              3211:
+                :cod: 3211
+                :denomination: '2NDE (SECOND)'
+              3212:
+                :cod: 4212
+                :denomination: '1IÈRE (FIRST)'
+          322: 
+            :cod: 322
+            :duration: '1 YEARS'
+            :certificate: 'HIGH SCHOOL DIPLOMA'
+            :class_levels:
+              3221:
+                :cod: 3221
+                :denomination: 'TERMINAL'
+  4:
+    :cod: 'F_TE'
+    :denomination: 'TECHNICAL AND VOCATIONAL EDUCATION'
+    :description: ''
+    :system: 'FRENCH SUB-SYSTEM'
+    :specialties:
+      41:
+        :cod: 41
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'AAT'
+        :description: 'WELCOME AND TOURIST ENTERTAINMENT'
+        :fam: 'STT'
+        :cycle: 2
+      42:
+        :cod: 42
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'ACA'
+        :description: 'ADMINISTRATIVE ACTION AND COMMUNICATION'
+        :fam: 'STT'
+        :cycle: 2
+      43:
+        :cod: 43
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'ACC'
+        :description: 'COMMERCIAL ACTION AND COMMUNICATION'
+        :fam: 'STT'
+        :cycle: 2
+      44:
+        :cod: 44
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'AV'
+        :description: 'TRAVEL AGENCY'
+        :fam: 'STT'
+        :cycle: 2
+      45:
+        :cod: 45
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'BPA'
+        :description: 'BAKERY PASTRY'
+        :fam: 'STT'
+        :cycle: 2
+      46:
+        :cod: 46
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'CG'
+        :description: 'MANAGEMENT ACCOUNTING'
+        :fam: 'STT'
+        :cycle: 2
+      47:
+        :cod: 47
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'CU'
+        :description: 'CULINARY ARTS'
+        :fam: 'STT'
+        :cycle: 2
+      48:
+        :cod: 48
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'ESCOM'
+        :description: 'ACCOUNTING SERVICES EMPLOYEE'
+        :fam: 'STT'
+        :cycle: 1
+      49:
+        :cod: 49
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'ESF'
+        :description: 'SOCIAL AND FAMILY ECONOMICS'
+        :fam: 'STT'
+        :cycle: 1
+      50:
+        :cod: 50
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'ESF'
+        :description: 'SOCIAL AND FAMILY ECONOMICS'
+        :fam: 'STT'
+        :cycle: 2
+      51:
+        :cod: 51
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'ESFI'
+        :description: 'FINANCIAL SERVICES EMPLOYEE'
+        :fam: 'STT'
+        :cycle: 1
+      52:
+        :cod: 52
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'FIG'
+        :description: 'TAXATION AND MANAGEMENT INFORMATION SYSTEMS'
+        :fam: 'STT'
+        :cycle: 2
+      53:
+        :cod: 53
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'HE'
+        :description: 'ACCOMMODATION'
+        :fam: 'STT'
+        :cycle: 2
+      54:
+        :cod: 54
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'HO'
+        :description: 'HOTELS'
+        :fam: 'STT'
+        :cycle: 2
+      55:
+        :cod: 55
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'RE'
+        :description: 'RESTAURATION'
+        :fam: 'STT'
+        :cycle: 1
+      56:
+        :cod: 56
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'SEBU'
+        :description: 'SECRETARIAL AND OFFICE AUTOMATION'
+        :fam: 'STT'
+        :cycle: 1
+      57:
+        :cod: 57
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'SEME'
+        :description: 'MEDICAL ADMINISTRATION'
+        :fam: 'STT'
+        :cycle: 1
+      58:
+        :cod: 58
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'SES'
+        :description: 'ECONOMIC AND SOCIAL SCIENCES'
+        :fam: 'STT'
+        :cycle: 2
+      59:
+        :cod: 59
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'SH'
+        :description: 'HOTEL SERVICE'
+        :fam: 'STT'
+        :cycle: 1
+      60:
+        :cod: 60
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'TO'
+        :description: 'TOURISM'
+        :fam: 'STT'
+        :cycle: 2
+      61:
+        :cod: 61
+        :group: 'TERTIARY SCIENCE AND TECHNOLOGY'
+        :denomination: 'VENTE'
+        :description: 'VENDOR'
+        :fam: 'STT'
+        :cycle: 1
+      62:
+        :cod: 62
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'AFSCI'
+        :description: 'SAWYER SHARPENER'
+        :fam: 'IND'
+        :cycle: 1
+      63:
+        :cod: 63
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'AJUS'
+        :description: 'ADJUSTMENT'
+        :fam: 'IND'
+        :cycle: 1
+      64:
+        :cod: 64
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'CAPA'
+        :description: 'AUTOMOTIVE PAINT BODYWORK'
+        :fam: 'IND'
+        :cycle: 1
+      65:
+        :cod: 65
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'COOM'
+        :description: 'METALLIC FRAMEWORK CONSTRUCTION'
+        :fam: 'IND'
+        :cycle: 1
+      66:
+        :cod: 66
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MAEL'
+        :description: 'AUTOMOBILE ELECTRICAL WORKS'
+        :fam: 'IND'
+        :cycle: 1
+      67:
+        :cod: 67
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MAIN'
+        :description: 'AUTOMOTIVE MECHANICS AND FUEL INJECTION'
+        :fam: 'IND'
+        :cycle: 1
+      68:
+        :cod: 68
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MARE'
+        :description: 'AUTOMOBILE REPAIR MECHANICS'
+        :fam: 'IND'
+        :cycle: 1
+      69:
+        :cod: 69
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MEFA'
+        :description: 'MANUFACTURING MECHANICS'
+        :fam: 'IND'
+        :cycle: 1
+      70:
+        :cod: 70
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MEFE'
+        :description: 'SHEET METAL WORK'
+        :fam: 'IND'
+        :cycle: 1
+      71:
+        :cod: 71
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'RECA'
+        :description: 'AUTOMOBILE BODY REPAIR'
+        :fam: 'IND'
+        :cycle: 1
+      72:
+        :cod: 72
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'BIJO'
+        :description: 'JEWELRY'
+        :fam: 'IND'
+        :cycle: 2
+      73:
+        :cod: 73
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'CM'
+        :description: 'MECHANICAL CONSTRUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      74:
+        :cod: 74
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'CMA-MVPL'
+        :description: 'AUTOMOTIVE CONSTRUCTION AND MAINTENANCE WITH A FOCUS ON HEAVY VEHICLE MAINTENANCE'
+        :fam: 'IND'
+        :cycle: 2
+      75:
+        :cod: 75
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'CMA-MVT'
+        :description: 'CONSTRUCTION AND MAINTENANCE OF AUTOMOBILES, OPTION  MAINTENANCE OF PASSENGER VEHICLES'
+        :fam: 'IND'
+        :cycle: 2
+      76:
+        :cod: 76
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'E'
+        :description: 'MATHEMATICS AND MECHANICS'
+        :fam: 'IND'
+        :cycle: 2
+      78:
+        :cod: 78
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'F1'
+        :description: 'MECHANICAL MANUFACTURING'
+        :fam: 'IND'
+        :cycle: 2
+      79:
+        :cod: 79
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MA'
+        :description: 'AUTOMOTIVE MECHANICS'
+        :fam: 'IND'
+        :cycle: 2
+      80:
+        :cod: 80
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MEM'
+        :description: 'ELECTRO-MECHANICAL MAINTENANCE'
+        :fam: 'IND'
+        :cycle: 2
+      81:
+        :cod: 81
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'MECHANICAL ENGINEERING TECHNIQUES'
+        :denomination: 'MF/CM'
+        :description: 'SHEET METAL AND METAL CONSTRUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      82:
+        :cod: 82
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'AICB'
+        :description: 'CHEMICAL ASSISTANT BIOLOGIST'
+        :fam: 'IND'
+        :cycle: 1
+      83:
+        :cod: 83
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'AICI'
+        :description: 'INDUSTRIAL CHEMICAL AID'
+        :fam: 'IND'
+        :cycle: 1
+      84:
+        :cod: 84
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'ELAU'
+        :description: 'AUTOMOTIVE ELECTRICITY'
+        :fam: 'IND'
+        :cycle: 1
+      85:
+        :cod: 85
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'ELBA'
+        :description: 'ELECTRICITY FOR BUILDINGS'
+        :fam: 'IND'
+        :cycle: 1
+      86:
+        :cod: 86
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'ELEQ'
+        :description: 'ELECTRICAL INSTALLATION'
+        :fam: 'IND'
+        :cycle: 1
+      87:
+        :cod: 87
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'ELME'
+        :description: 'ELECTRO-MECHANICS'
+        :fam: 'IND'
+        :cycle: 1
+      88:
+        :cod: 88
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'ELNI'
+        :description: 'ELECTRONICS'
+        :fam: 'IND'
+        :cycle: 1
+      89:
+        :cod: 89
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'FRCL'
+        :description: 'REFRIGERATION AND AIR CONDITIONING'
+        :fam: 'IND'
+        :cycle: 1
+      90:
+        :cod: 90
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'CI'
+        :description: 'INDUSTRIAL CHEMISTRY'
+        :fam: 'IND'
+        :cycle: 2
+      91:
+        :cod: 91
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F2'
+        :description: 'ELECTRONICS'
+        :fam: 'IND'
+        :cycle: 2
+      92:
+        :cod: 92
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F3'
+        :description: 'ELECTRICAL TECHNOLOGY'
+        :fam: 'IND'
+        :cycle: 2
+      93:
+        :cod: 93
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F5'
+        :description: 'REFRIGERATION AND AIR CONDITIONING'
+        :fam: 'IND'
+        :cycle: 2
+      94:
+        :cod: 94
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F6-BIPE'
+        :description: 'CHEMICAL ENGINEERING, BIOPROCESS AND PETROCHEMICAL OPTION'
+        :fam: 'IND'
+        :cycle: 2
+      95:
+        :cod: 95
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F6-COPH'
+        :description: 'CHEMICAL ENGINEERING COSMETICS AND PHARMACY OPTION'
+        :fam: 'IND'
+        :cycle: 2
+      96:
+        :cod: 96
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F6-MIPE'
+        :description: 'CHEMICAL ENGINEERING MINING AND OIL OPTION'
+        :fam: 'IND'
+        :cycle: 2
+      97:
+        :cod: 97
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F7'
+        :description: 'BIOLOGICAL AND MEDICO-SANITARY SCIENCE AND TECHNOLOGY'
+        :fam: 'IND'
+        :cycle: 2
+      98:
+        :cod: 98
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F8'
+        :description: 'SOCIAL HEALTH SCIENCES AND TECHNOLOGY'
+        :fam: 'IND'
+        :cycle: 2
+      99:
+        :cod: 99
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'MAV'
+        :description: 'AUDIO-VISUAL MAINTENANCE'
+        :fam: 'IND'
+        :cycle: 2
+      100:
+        :cod: 100
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'MEHB'
+        :description: 'HOSPITAL AND BIOMEDICAL EQUIPMENT MAINTENANCE'
+        :fam: 'IND'
+        :cycle: 2
+      101:
+        :cod: 101
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'MISE'
+        :description: 'MAINTENANCE AND INSTALLATION OF ELECTRONICS SYSTEMS'
+        :fam: 'IND'
+        :cycle: 2
+      102:
+        :cod: 102
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'CARR'
+        :description: 'TILE LAYING'
+        :fam: 'IND'
+        :cycle: 1
+      103:
+        :cod: 103
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'CERAM'
+        :description: 'CERAMICS'
+        :fam: 'IND'
+        :cycle: 1
+      104:
+        :cod: 104
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'DEBA'
+        :description: 'DRAFTSMANSHIP'
+        :fam: 'IND'
+        :cycle: 1
+      105:
+        :cod: 105
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'INSA'
+        :description: 'SANITARY INSTALLATION'
+        :fam: 'IND'
+        :cycle: 1
+      106:
+        :cod: 106
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'MACO'
+        :description: 'MASONRY (BUILDING CONSTRUCTION)'
+        :fam: 'IND'
+        :cycle: 1
+      107:
+        :cod: 107
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'MENU'
+        :description: 'WOOD WORK'
+        :fam: 'IND'
+        :cycle: 1
+      108:
+        :cod: 108
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PA'
+        :description: 'ANIMAL PRODUCTION'
+        :fam: 'IND'
+        :cycle: 1
+      109:
+        :cod: 109
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PA-PPO'
+        :description: 'ANIMAL PRODUCTION OPTION PIG PRODUCER'
+        :fam: 'IND'
+        :cycle: 1
+      110:
+        :cod: 110
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PA-PV'
+        :description: 'ANIMAL PRODUCTION POULTRY PRODUCER OPTION'
+        :fam: 'IND'
+        :cycle: 1
+      111:
+        :cod: 111
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PV'
+        :description: 'VEGETABLE PRODUCTION'
+        :fam: 'IND'
+        :cycle: 1
+      112:
+        :cod: 112
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PV-PC'
+        :description: 'PLANT PRODUCTION OPTION CEREAL PRODUCTION'
+        :fam: 'IND'
+        :cycle: 1
+      113:
+        :cod: 113
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PV-PM'
+        :description: 'PLANT PRODUCTION OPTION VEGETABLE PRODUCTION'
+        :fam: 'IND'
+        :cycle: 1
+      114:
+        :cod: 114
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'CERAM'
+        :description: 'CERAMICS'
+        :fam: 'IND'
+        :cycle: 2
+      115:
+        :cod: 115
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'CH'
+        :description: 'SHEET METAL WORK'
+        :fam: 'IND'
+        :cycle: 2
+      116:
+        :cod: 116
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'CH-TI'
+        :description: 'INDUSTRIAL SHEET METAL WORK AND PIPE FITTING'
+        :fam: 'IND'
+        :cycle: 2
+      117:
+        :cod: 117
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'EF'
+        :description: 'FORESTRY EXPLOITATION'
+        :fam: 'IND'
+        :cycle: 2
+      118:
+        :cod: 118
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F4BA'
+        :description: 'CIVIL ENGINEERING AND CONSTRUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      119:
+        :cod: 119
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F4BE'
+        :description: 'DRAFTSMANSHIP'
+        :fam: 'IND'
+        :cycle: 2
+      121:
+        :cod: 121
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'F4TP'
+        :description: 'PUBLIC WORKS'
+        :fam: 'IND'
+        :cycle: 2
+      122:
+        :cod: 122
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'GTTO'
+        :description: 'SURVEYS - TOPOGRAPHY OPTION'
+        :fam: 'IND'
+        :cycle: 2
+      123:
+        :cod: 123
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'IB'
+        :description: 'WOOD PROCESSING INDUSTRY'
+        :fam: 'IND'
+        :cycle: 2
+      124:
+        :cod: 124
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'IS'
+        :description: 'SANITARY EQUIPMENT INSTALLATION'
+        :fam: 'IND'
+        :cycle: 2
+      125:
+        :cod: 125
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'MEA'
+        :description: 'MAINTENANCE OF AGRICULTURAL EQUIPMENT'
+        :fam: 'IND'
+        :cycle: 2
+      126:
+        :cod: 126
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'MEB'
+        :description: 'CARPENTRY / FURNITURE (WOOD WORK)'
+        :fam: 'IND'
+        :cycle: 2
+      127:
+        :cod: 127
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PA'
+        :description: 'ANIMAL PRODUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      128:
+        :cod: 128
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PA-AQ'
+        :description: 'ANIMAL PRODUCTION - AQUACULTURE OPTION'
+        :fam: 'IND'
+        :cycle: 2
+      129:
+        :cod: 129
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PA-PM'
+        :description: 'ANIMAL PRODUCTION OPTION MONOGASTRIC PRODUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      130:
+        :cod: 130
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PA-PP'
+        :description: 'ANIMAL PRODUCTION OPTION POLYGASTRIC PRODUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      131:
+        :cod: 131
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PV'
+        :description: 'VEGETABLE PRODUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      132:
+        :cod: 132
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PV-PCLGC'
+        :description: 'PLANT PRODUCTION OPTION CEREAL, LEGUME AND MUSHROOM PRODUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      133:
+        :cod: 133
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PV-PCP'
+        :description: 'PLANT PRODUCTION OPTION PERENNIAL CROP PRODUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      134:
+        :cod: 134
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PV-PMF'
+        :description: 'PLANT PRODUCTION OPTION VEGETABLE AND FODDER PRODUCTION'
+        :fam: 'IND'
+        :cycle: 2
+      135:
+        :cod: 135
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'PV-PS'
+        :description: 'PLANT PRODUCTION OPTION PLANS AND SEEDS'
+        :fam: 'IND'
+        :cycle: 2
+      136:
+        :cod: 136
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'TC-PA'
+        :description: 'PROCESSING AND CONSERVATION OF AGRO-PASTORAL PRODUCTS'
+        :fam: 'IND'
+        :cycle: 2
+      137:
+        :cod: 137
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'TGF'
+        :description: 'FORESTRY TECHNIQUES AND MANAGEMENT'
+        :fam: 'IND'
+        :cycle: 2
+      138:
+        :cod: 138
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'CIVIL ENGINEERING, WOOD ENGINEERING AND AGRICULTURAL TECHNIQUES'
+        :denomination: 'TP'
+        :description: 'PRODUCT PROCESSING'
+        :fam: 'IND'
+        :cycle: 2
+      139:
+        :cod: 139
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'COME'
+        :description: 'BESPOKE TAILORING'
+        :fam: 'IND'
+        :cycle: 1
+      140:
+        :cod: 140
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'DECOR'
+        :description: 'DECORATION'
+        :fam: 'IND'
+        :cycle: 1
+      141:
+        :cod: 141
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'ESCO'
+        :description: 'ESTHETICS AND HAIR DRESSING'
+        :fam: 'IND'
+        :cycle: 1
+      142:
+        :cod: 142
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'PEINT'
+        :description: 'PAINTING'
+        :fam: 'IND'
+        :cycle: 1
+      143:
+        :cod: 143
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'SCULP'
+        :description: 'SCULPTURE'
+        :fam: 'IND'
+        :cycle: 1
+      144:
+        :cod: 144
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'BP CF'
+        :description: 'BP COUTURE FLOU'
+        :fam: 'IND'
+        :cycle: 2
+      145:
+        :cod: 145
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'IH'
+        :description: 'INDUSTRIE D''HABILLEMENT'
+        :fam: 'IND'
+        :cycle: 2
+      146:
+        :cod: 146
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'PEINT'
+        :description: 'PAINTING'
+        :fam: 'IND'
+        :cycle: 2
+      147:
+        :cod: 147
+        :group: 'INDUSTRIAL SCIENCES AND TECHNOLOGIES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'SCULP'
+        :description: 'SCULPTURE'
+        :fam: 'IND'
+        :cycle: 2
+    :cycles:
+      41:
+        :cod: 'F_TE_C1'
+        :denomination: 'FIRST CYCLE'
+        :description: ''
+        :duration: '4 YEARS'
+        :phases:
+          411: 
+            :cod: 411
+            :certificate: 'CAP'
+            :duration: '4 YEARS'
+            :class_levels:
+              4111:
+                :cod: 4111
+                :denomination: 'FIRST YEAR'
+                :description: ''
+              4112:
+                :cod: 4112
+                :denomination: 'SECOND YEAR'
+                :description: ''
+              4113:
+                :cod: 41113
+                :denomination: 'THIRD YEAR'
+                :description: ''
+              4114:
+                :cod: 4114
+                :denomination: 'FOURTH YEAR'
+                :description: ''
+      42:
+        :cod: 'F_TE_C2'
+        :denomination: 'SECOND CYCLE'
+        :description: ''
+        :duration: '3 YEARS'
+        :phases:
+          421: 
+            :cod: 421
+            :duration: '2 YEARS'
+            :certificate: 'PROBATOIRE'
+            :class_levels:
+              4211:
+                :cod: 4211
+                :denomination: 'FIFTH YEAR'
+                :description: ''
+              4212:
+                :cod: 4212
+                :denomination: 'SIXTH YEAR'
+                :description: ''
+          422: 
+            :cod: 422
+            :duration: '1 YEARS'
+            :certificate: 'HIGH SCHOOL DIPLOMA'
+            :class_levels:
+              4221:
+                :cod: 4221
+                :denomination: 'TERMINAL'
+                :description: ''
+
+
+

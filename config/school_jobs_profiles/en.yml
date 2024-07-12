@@ -1,0 +1,58 @@
+:en:
+  1:
+    :denomination: "Principal"
+    :description: "Description of principal"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  2:
+    :denomination: "Head Teacher"
+    :description: "Description of Head Teacher"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  3:
+    :denomination: "General supervisor"
+    :description: "Description of the general supervisor"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  4:
+    :denomination: "Sector supervisor"
+    :description: "Description of the sector supervisor"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  5:
+    :denomination: "Regular teacher"
+    :description: "Description of regular teacher"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  6:
+    :denomination: "Temporary teacher"
+    :description: "Description of temporary teacher"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  7:
+    :denomination: "Trainee teacher"
+    :description: "Description of trainee teacher"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  10:
+    :denomination: "Secretary of principal"
+    :description: "Description of secretary "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  11:
+    :denomination: "Secretary of Head teacher"
+    :description: "Description of secretary "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  12:
+    :denomination: "Saver"
+    :description: "Description of saver "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  13:
+    :denomination: "Guidance counselor"
+    :description: "Description of guidance counselor "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  14:
+    :denomination: "Nurse"
+    :description: "Description of nurse "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  15:
+    :denomination: "Maid"
+    :description: "Description of maid "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  16:
+    :denomination: "Gate keaper"
+    :description: "Description of Gate keaper "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+

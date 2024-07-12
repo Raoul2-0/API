@@ -1,0 +1,83 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+fr:
+  global:
+    welcome: "Soyez le bienvenu"
+    hello: "Salut"
+    hey: "Hey"
+    sincerely: "Cordialement,"
+    link_not_working: "Si le bouton précédent ne fonctionne pas, copiez et collez le lien suivant sur votre navigateur"
+    address: "Adresse"
+    resource_not_found: "Ressource introuvable"
+    resource_invalid: "Ressource invalide"
+    deleted_resource: "%{resource_name} déjà supprimé"
+    overflow_attachment: "Les records des %{resource_name}s ne peuvent pas avoir plus de %{limit_attachments}  attachment/s"
+    not_more_than_one_president: "Le président existe déjà. Une activité extra scolaire ne peut avoir plus d'un président"
+    resource_not_belongs_to_school: "Cette resource n'appartient pas à l'école %{school_denomination}"
+    missing_email: "E-mail manquant"
+    invalid_email: "Veuillez insérer une adresse email valide"
+    email_already_used: "L'e-mail inséré est déjà utilisé. Veuillez contacter l'administrateur pour plus d'informations"
+    current_scholastic_period_cannot_be_nil: "La période scolaire en cours ne peut être nulle"
+    general:error: "Une erreur s'est produite lors de l'exécution de cette action."
+  user: "utilisateur"
+  
+  status:
+    0: Désactivé
+    1: Activé
+    3: Supprimé
+    4: Publié
+  activerecord:
+    errors:
+      models:
+        staff:
+          attributes:
+            signature:
+              invalid_svg: "doit être un SVG valide"
+        event:
+          attributes:
+            from: 
+              from_date_cannot_be_in_the_past: "ne peut pas être dans le passé"
+            to:
+              from_date_must_come_before_to_date: "doit venir après la date From"
+            phases:
+              date_phases_are_valid: "La date de la phase doit être comprise entre les dates de début et de fin de l'événement"
+              time_phases_are_valid: "L'heure de début de la phase doit être antérieure à l'heure de fin de la phase"
+        school:
+          attributes:
+            identification_number: 
+              unique_identification_number: "Il ne peut y avoir qu'une seule super école"
+              prevent_identification_number_modification: "Le numéro d'identification de la super école ne peut pas être modifié"
+      controllers:
+        extra_activity:
+          not_more_than_one_cooperative: "Il ne peut y avoir qu'une seule coopérative scolaire publique"
+        event:
+          record_type_id_must_exist: "record_type et record_id doivent exister"

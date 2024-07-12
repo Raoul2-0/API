@@ -1,0 +1,39 @@
+
+  {
+  "type": "object",
+  "properties": {
+    "black": {
+      "type": ["string", "null"]
+    },
+    "white": {
+      "type": ["string", "null"]
+    },
+    "primary": {
+      "type": ["string", "null"]
+    },
+    "secondary": {
+      "type": ["string", "null"]
+    },
+    "grey_variant_1": {
+      "type": ["string", "null"]
+    },
+    "black_variant_1": {
+      "type": ["string", "null"]
+    },
+    "primary_variant_1": {
+      "type": ["string", "null"]
+    },
+    "primary_variant_2": {
+      "type": ["string", "null"]
+    },
+    "primary_variant_3": {
+      "type": ["string", "null"]
+    },
+    "primary_variant_4": {
+      "type": ["string", "null"]
+    },
+    "primary_variant_5": {
+      "type": ["string", "null"]
+    }
+  }
+}

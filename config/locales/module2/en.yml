@@ -1,0 +1,13 @@
+en:
+  schools:
+    unknown: "School not found"
+    create:
+      success: "School successfully created"
+      error: "An error occurred while creating a school"
+    update:
+      success: "School successfully updated"
+      error: "An error occurred while updating this school"
+    destroy:
+      success: "School successfully deleted"
+      error: "An error occurred while destroying this school"
+       

@@ -1,0 +1,22 @@
+#!/bin/bash
+export PATH="$HOME/.rbenv/versions/3.0.2/bin:$PATH"
+source /etc/profile
+RUBY_PATH="$(rbenv which ruby)"
+BRAKEMAN_PATH="$(rbenv which brakeman)"
+echo $RUBY_PATH
+echo $BRAKEMAN_PATH
+if [ -f "$RUBY_PATH" ]; then
+  RUBY_VERSION=$($RUBY_PATH -v | awk '{print $2}')
+  echo "Running pre-commit checks with Ruby $RUBY_VERSION..."
+  rubocop --auto-correct -A 
+  brakeman --no-fail-on-warnings
+  # If Brakeman exited with a non-zero status code, exit the script with 		the same code
+  if [ $? -ne 0 ]; then
+    echo "Brakeman detected security warnings. Please fix them before      committing."
+   exit $?
+  fi
+  
+else
+  echo "Ruby not found. Aborting commit."
+  exit 1
+fi

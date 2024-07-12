@@ -1,0 +1,3 @@
+module ConfigureActivityModule
+  LIMIT_ATTACHMENTS = {document: 1} unless const_defined?(:LIMIT_ATTACHMENTS)
+end

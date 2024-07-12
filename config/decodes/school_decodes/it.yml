@@ -1,0 +1,72 @@
+it:
+  eval_type:
+    denom: 'Tipo di valutazione'
+    values:
+      contin_ss:
+        denom: "Valutazione continua"
+        desc: "Continuous assessment involves ongoing evaluation of a student's performance throughout the academic year. \
+              It may include class assignments, homework, quizzes, and class participation. These assessments are intended \
+              to provide regular feedback on a student's progress."
+      tests_examinations:
+        denom: "Class Tests and Examinations"
+        desc: "Students are often subjected to periodic class tests, mid-term examinations, and end-of-term examinations. \
+              These assessments are used to gauge students' understanding of the subjects being taught."
+      end_Sequence_exam:
+        denom: "End-of-Sequence Examinations"
+        desc: "In addition to continuous assessment, there are often end-of-sequence examinations, which are held at the \
+              end of specific units or sequences of the curriculum. These assessments help measure a student's grasp of \   
+              the material covered in those units."
+      mock_tests_exam:
+        denom: "Mock Examinations"
+        desc: "Mock examinations, also known as practice examinations, are often conducted prior to the official national \
+              exams (such as the GCE Ordinary and Advanced Levels). These mock exams help students prepare for the \
+              high-stakes final exams."
+      natinal_sexam:
+        denom: "National Examinations"
+      practical_exam:
+        denom: "Practical Examinations"
+        desc: "In subjects like science and technology, practical assessments are often part of the evaluation process. \
+              These evaluations may involve hands-on experiments, projects, or laboratory work."
+      oral_exam:
+        denom: "Oral Examinations"
+        desc: "Some subjects, especially languages and oral-based courses, may include oral examinations. \
+              These assessments evaluate students' speaking and communication skills"
+      course_projects:
+        denom: "Coursework and Projects"
+        desc: "In some cases, students are required to complete coursework or projects that are submitted and graded \
+              as part of the evaluation process."
+      overall_performance:
+        denom: "Overall Class Performance"
+        desc: "Teachers often consider a student's overall class performance, which may include participation in class \
+              discussions, group work, and behavior."
+  diary_type:
+    denom: 'diary Type'
+  collab_cat:
+    denom: 'Categoria collaboratore'
+    values:
+      educational_partners:
+        denom: "Partner educativi"
+        desc: "Società educative, editori e fornitori di contenuti possono collaborare con \
+              le scuole per offrire materiali didattici, software o risorse educative."
+      mentorship_rograms:
+        denom: "Programmi di tutoraggio"
+        desc: "Mentori esterni o organizzazioni di tutoraggio collaborano con le scuole \
+              per fornire agli studenti orientamento e consulenza professionale."
+  
+  course_subject:
+    denom: "Materie dei corsi"
+    values:
+      scien_sub:
+        denom: "Materie scientifiche"
+        desc: "Le materie scientifiche comprendono tutte le discipline incentrate sullo studio dei fenomeni \
+              naturali, la matematica e l'applicazione del metodo scientifico. Si rivolge agli studenti che desiderano \
+              esplorare le leggi della natura e comprendere i principi che regolano l'universo e la tecnologia."
+      lit_sub:
+        denom: "Materie letterarie"
+        desc: "Le materie letterarie sono ideali per gli studenti interessati a esplorare culture diverse, analizzare \
+              testi letterari e studiare eventi storici. Incoraggia lo sviluppo di capacità critiche, riflessive, \
+              di espressione scritta e orale."
+      comp_sub:
+        denom: "Materie complementari"
+        desc: "Le materie complementari comprendono una serie di discipline che arricchiscono il curriculum standard. \
+              Sono essenziali per formare individui a tutto tondo, consapevoli delle problematiche sociali e personali."

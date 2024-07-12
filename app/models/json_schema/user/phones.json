@@ -1,0 +1,16 @@
+
+  {
+  "type": "object",
+  "required": ["phone_1"],
+  "properties": {
+    "phone_1": {
+      "type": ["string", "null"]
+    },
+    "phone_2": {
+      "type": ["string", "null"]
+    },
+    "landline": {
+      "type": ["string", "null"]
+    }
+  }
+}

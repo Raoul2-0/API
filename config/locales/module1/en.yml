@@ -1,0 +1,131 @@
+en:
+  pundit:
+    must_be_logged_in: "must be logged in"
+    default: "You cannot perform this action."
+    theme_policy:
+      create?: 'You cannot create themes!'
+      update?: 'You cannot edit this theme!'
+      destroy?: 'You cannot delete a theme!'
+    school_policy:
+      update_jsonb?: "You cannot update this school!"
+    attachment_policy:
+      add_files?: "You cannot attach files to this object!"
+    extra_activity_policy:
+      create?: 'You cannot create extra activities!'
+      update?: 'You cannot edit this extra activity!'
+      destroy?: 'You cannot delete an extra activity!'
+    table_description_policy:
+      create?: 'You cannot create table descriptions!'
+      update?: 'You cannot edit this table description!'
+      destroy?: 'You cannot delete a table description!'
+  monitorings:
+    update_attributes_monitor_of_resources:
+      warming: "The following ids %{wrong_ids} do not correspond to any record. All the monitors associated with other ids were successfully updated"
+      success: "Monitoring attributes updated successfully"
+  users:
+    unknown: "Non-existent user"
+    update:
+      success: "%{user} successfully updated"
+      error: "An error occurred while updating the %{user}"
+    destroy: 
+      soft_deletion: "User was successfully deleted."
+      permanent_deletion: "This user was permanently deleted."
+      warming: "You are not allowed to delete this user."
+      error: "An error occurred while deleting this user."
+    add_role: 
+      role_exist: "User already has this role"
+      role_added: "Role successfully added"
+      error: "Error: maybe this user does not exist"
+      not_admin_user: "Not allowed to assign a role. Only administrator users can assign a role to another user"
+    remove_role:
+      role_removed: "Role successfully removed"
+      non_existent_role: "This role was not assigned to this user"
+      not_admin_user: "Not allowed to remove a role. Only administrator users can remove a role to another user"
+    
+  sessions:
+    unconfirmed: "You have to confirm your email address before continuing."
+    loginfailed: "Email does not exists or wrong password"
+    inactive: "Your account is not currently active. To reactivate it, please contact an administrator at sysaitechnology@gmail.com"
+    inexistentPassword: "Empty password. Please enter your password"
+    notSuperAdmin: "Only Super admin can login as another user. Please contact your an administrator"
+
+  registrations: 
+    mailSent: "You will receive an email with instructions for how to confirm your email address in a few minutes"
+    mailNotSent: "The user was successfully created but the mail for confirming the email address was not sent."
+    mailSentError: "An error happens during registration. Verify your details"
+    emailUsed: "Email address already used"
+    emailConfirmed: "Your email address has been successfully confirmed"
+    emailAlreadyConfirmed: "Your email address was already confirmed, please try signing in"
+    
+  emailConfirmationInfo:
+    title: "Confirm your email"
+    message1: "Click on the button below to confirm your email address. If you did not create an account with"
+    message2: ", you can safely ignore this mail."
+    accountConfirm: "Confirm my account" 
+  
+  password_resets:
+    nonexistentemail: "There is no user with that email address"
+    mailSent: "Email sent with password reset instructions"
+    mailSentError: "An error happens when resetting the password. Verify your details or contact an administrator"
+    updatePasswordError: "An error happens when updating the password. Try again later or contact an administrator"
+    title: "Reset your password"
+    message1: "Someone has requested to change your password. Click on the button below to reset your password. The link will no longer be accessible after 24 hours."
+    message2: "If you did not request this, please ignore this email."
+    message3: "Your password won't change until you access the link above and create a new one."
+    passwordConfirm: "Reset my password"
+    nonexistenttoken: "No user found or the link for resetting the password is expired. Try to reset the password again"
+    success: "Your password was successfully updated"
+    link_expired: "The link for resetting your password is expired. Please submit a new reset request."
+  
+  schools:
+    assign_theme:
+      success: "Theme successfully assigned"
+      error: "An error occurred while assigning the theme. Please try again later or contact an administrator"
+    remove_theme:
+      success: "Theme successfully removed"
+      error: "An error occurred while removing the theme. Please try again later or contact an administrator"
+    update_jsonb:
+      success: "School successfully updated"
+      error: "An error occurred while updating this school. Please try again later or contact an administrator"
+
+  courses:
+      add_teacher:
+        success: "Successfully assigned teacher"
+        error: "An error occurred while assigning the teacher. Please try again later or contact an administrator."
+        already_added: "Teacher already added"
+        invalid: "This profile is not a teacher"
+      remove_teacher:
+        success: "Teacher successfully retired"
+        error: "An error occurred while deleting the teacher. Please try again later or contact an administrator."
+        not_found: "Teacher not found"
+      main_teacher:
+        success: "Status changed successfully"
+        error: "An error has occurred while changing the status of the teacher. Please try again later or contact an administrator."
+        not_found_or_not_main: "Teacher cannot be found or is not the main teacher"
+        invalid: "This profile is not a teacher"
+        
+  attachments:
+    add_files:
+      success: "files successfully attached"
+      error: "An error occurred while attaching files"
+  
+  resource:
+    unknown: "%{resource_name} not found"
+    update:
+      success: "%{resource_name} successfully updated"
+      error: "An unexpected error occurred when updating this %{resource_name}"
+    destroy:
+      success: "%{resource_name} successfully deleted"
+      error: "An unexpected error occurred when deleting this %{resource_name}"
+    destroys:
+      success: "all %{resource_name} successfully deleted"
+      warming: "No %{resource_name} founded"
+      error: "An unexpected error occurred when deleting these %{resource_name}"
+  
+  classroom:
+    create:
+      cannot_be_assigned_to_local: "The selected local cannot be assigned to the classroom. The number of students is greater than the capacity of the local."
+  evaluation:
+    cannot_be_assigned_to_local: "The local that has been chosen is unavailable at this date and/or time slot."
+    
+

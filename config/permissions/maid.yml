@@ -1,0 +1,121 @@
+- "activity_student:index"
+- "activity_student:show"
+
+
+- "attachment:index"
+- "attachment:show"
+- "attachment:create"
+- "attachment:update"
+- "attachment:destroy"
+
+
+- "attend_scholastic_period_evaluation:index"
+- "attend_scholastic_period_evaluation:show"
+
+
+- "attend_scholastic_period:index"
+- "attend_scholastic_period:show"
+
+
+- "attend:index"
+- "attend:show"
+
+
+- "classroom:index"
+- "classroom:show"
+
+
+- "collaborator:index"
+- "collaborator:show"
+
+
+- "configure_activity:index"
+- "configure_activity:show"
+
+
+- "contact:index"
+- "contact:show"
+
+
+- "course:index"
+- "course:show"
+
+
+- "department:index"
+- "department:show"
+
+
+- "event:index"
+- "event:show"
+- "event:create"
+- "event:update"
+- "event:destroy"
+
+
+- "extra_activity:index"
+- "extra_activity:show"
+- "extra_activity:create"
+- "extra_activity:update"
+- "extra_activity:destroy"
+
+- "phase:index"
+- "phase:show"
+
+
+
+- "evaluation_type:index"
+- "evaluation_type:show"
+
+
+- "local:index"
+- "local:show"
+
+
+- "news_letter:index"
+- "news_letter:show"
+
+
+
+- "news:index"
+- "news:show"
+
+
+- "parent:index"
+- "parent:show"
+
+
+- "scholastic_period:index"
+- "scholastic_period:show"
+
+
+- "school:index"
+- "school:show"
+
+
+- "serve:index"
+- "serve:show"
+
+
+- "staff:index"
+- "staff:show"
+
+
+- "statistic:index"
+- "statistic:show"
+
+
+- "student:index"
+- "student:show"
+
+
+- "table_description:index"
+- "table_description:show"
+
+
+- "theme:index"
+- "theme:show"
+
+
+- "user:index"
+- "user:show"
+

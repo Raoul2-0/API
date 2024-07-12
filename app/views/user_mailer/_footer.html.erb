@@ -1,0 +1,41 @@
+<div >
+  <% if @school.contacts_info.key?("whatApp_number") %>
+  <% if  @school.contacts_info["whatApp_number"] != nil %> 
+    <% @link_whatApp = "https://wa.me/" +  @school.contacts_info["whatApp_number"] %>
+  <%= link_to image_tag("#{ENV.fetch('ELEARNING_HOST')}/images/social_media/whatsapp.png", alt: "WhatsApp", class: "media-style"),  @link_whatApp%> 
+  <% end %>
+  <% end %>
+
+  <% if @school.social_media.key?("linkedIn") %>
+   <% if @school.social_media["linkedIn"] != nil %> 
+  <%= link_to image_tag("#{ENV.fetch('ELEARNING_HOST')}/images/social_media/linkedin.png", alt: "LinkedIn", class: "media-style"), @school.social_media["linkedIn"] %>
+  <% end %> 
+  <% end %>
+
+  <% if @school.social_media.key?("facebook") %>
+  <% if @school.social_media["facebook"] != nil %>
+  <%= link_to image_tag("#{ENV.fetch('ELEARNING_HOST')}/images/social_media/facebook.png", alt: "Facebook", class: "media-style"), @school.social_media["facebook"] %>
+  <% end %> 
+  <% end %>
+
+  <% if @school.social_media.key?("instagram") %>
+  <% if @school.social_media["instagram"] != nil %>
+  <%= link_to image_tag("#{ENV.fetch('ELEARNING_HOST')}/images/social_media/instagram.png", alt: "Instagram", class: "media-style"), @school.social_media["instagram"] %>
+  <% end %>
+  <% end %>
+   
+  <% if @school.social_media.key?("twitter") %>
+  <% if @school.social_media["twitter"] != nil %>
+  <%= link_to image_tag("#{ENV.fetch('ELEARNING_HOST')}/images/social_media/twitter.png", alt: "Twitter", class: "media-style"), @school.social_media["twitter"] %>
+  <% end %>
+  <% end %>
+
+  <%= link_to "#{ENV.fetch('ELEARNING_DOMAIN_NAME')}", ENV.fetch('ELEARNING_HOST'), class:"website"%>
+
+</div>
+
+
+
+
+
+

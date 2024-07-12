@@ -1,0 +1,1545 @@
+
+:fr:
+  1:
+    :cod: 'E_GE'
+    :system: 'SOUS SYSTÈME ANGLOPHONE'
+    :denomination: 'ENSEIGNEMENT GENERAL'
+    :description: ''
+    :specialties:
+      11:
+        :cod: 11
+        :group: 'ARTS'
+        :denomination: 'A1'
+        :description: 'FRANÇAIS, LITTÉRATURE ET HISTOIRE'
+      12:
+        :cod: 12
+        :group: 'ARTS'
+        :denomination: 'A2'
+        :description: 'GEOGRAPHIE, ECONOMIE ET HISTOIRE'
+      13:
+        :cod: 13
+        :group: 'ARTS'
+        :denomination: 'A3'
+        :description: 'LITTÉRATURE, HISTOIRE ET ECONOMIE'
+      14:
+        :cod: 14
+        :group: 'ARTS'
+        :denomination: 'A4'
+        :description: 'GEOGRAPHIE, ECONOMIE AND MATHEMATIQUE'
+      15:
+        :cod: 15
+        :group: 'ARTS'
+        :denomination: 'A5'
+        :description: 'LITTÉRATURE, PHILOSOPHIE ET MATHÉMATIQUES'
+      16:
+        :cod: 16
+        :group: 'ARTS'
+        :denomination: 'A6'
+        :description: 'LITTÉRATURE, FRANÇAIS ET UNE (1) LANGUE ÉTRANGÈRE'
+      17:
+        :cod: 17
+        :group: 'ARTS'
+        :denomination: 'A7'
+        :description: 'LITTÉRATURE, CINÉMATOGRAPHIE ET INFORMATIQUE'
+      18:
+        :cod: 18
+        :group: 'ARTS'
+        :denomination: 'A8'
+        :description: 'ARTS ET ARTISANAT ET LANGUE ET CULTURE NATIONALES'
+      19:
+        :cod: 19
+        :group: 'SCIENCE'
+        :denomination: 'S1'
+        :description: 'CHIMIE, PHYSIQUE ET MATHÉMATIQUES'
+      110:
+        :cod: 110
+        :group: 'SCIENCE'
+        :denomination: 'S2'
+        :description: 'CHIMIE, PHYSIQUE ET BIOLOGIE'
+      111:
+        :cod: 111
+        :group: 'SCIENCE'
+        :denomination: 'S3'
+        :description: 'BIOLOGIE, CHIMIE ET PHYSIQUE'
+      112:
+        :cod: 112
+        :group: 'SCIENCE'
+        :denomination: 'S4'
+        :description: 'ARTS ET ARTISANAT ET LANGUE ET CULTURE NATIONALES'
+    :cycles:
+      11:
+        :cod: 'E_GE_C1'
+        :denomination: 'PREMIER CYCLE'
+        :description: ''
+        :duration: '5 ANS'
+        :phases:
+          111: 
+            :cod: 111
+            :denomination: 'PREMIÈRE PHASE'
+            :description: ''
+            :duration: '5 ANS'
+            :certificate: 'EXAMEN DU CERTIFICAT GÉNÉRAL DE L''ÉDUCATION NIVEAU ORDINAIRE'
+            :class_levels:
+              1111:
+                :cod: 1111
+                :denomination: 'FROM 1'
+                :description: ''
+              1112:
+                :cod: 1112
+                :denomination: 'FROM 2'
+                :description: ''
+              1113:
+                :cod: 1113
+                :denomination: 'FROM 3'
+                :description: ''
+              1114:
+                :cod: 1114
+                :denomination: 'FROM 4'
+                :description: ''
+              1115:
+                :cod: 1115
+                :denomination: 'FROM 5'
+                :description: ''
+      12:
+        :cod: 'E_GE_C2'
+        :denomination: 'SECOND CYCLE'
+        :description: ''
+        :duration: '2 ANS'
+        :phases:
+          121: 
+            :cod: 121
+            :denomination: 'PREMIER CYCLE'
+            :description: ''
+            :duration: '2 ANS'
+            :certificate: 'EXAMEN DU CERTIFICAT GÉNÉRAL DE L''ÉDUCATION NIVEAU AVANCÉ'
+            :class_levels:
+              1211:
+                :cod: 1211
+                :denomination: 'FROM 6'
+                :description: ''
+              1212:
+                :cod: 1212
+                :denomination: 'FROM 7'
+                :description: ''
+  2:
+    :cod: 'E_TE'
+    :system: 'SOUS SYSTÈME ANGLOPHONE'
+    :denomination: 'ENSEIGNEMENT TECHNIQUE ET PROFESSIONNEL'
+    :specialties:
+      21:
+        :cod: 21
+        :group: 'COMMERCIAL'
+        :denomination: 'ACA'
+        :description: 'ACTION ET COMMUNICATION ADMINISTRATIVE'
+        :fam: 'STT'
+        :cycle: 22
+      22:
+        :cod: 22
+        :group: 'COMMERCIAL'
+        :denomination: 'ACC'
+        :description: 'ACTION ET COMMUNICATION COMMERCIALE'
+        :fam: 'STT'
+        :cycle: 2
+      23:
+        :cod: 23
+        :group: 'COMMERCIAL'
+        :denomination: 'CG'
+        :description: 'COMPTABILITÉ DE GESTION'
+        :fam: 'STT'
+        :cycle: 2
+      24:
+        :cod: 24
+        :group: 'COMMERCIAL'
+        :denomination: 'ESF'
+        :description: 'ECONOMIE SOCIALE ET FAMILIALE'
+        :fam: 'STT'
+        :cycle: 1
+      25:
+        :cod: 25
+        :group: 'COMMERCIAL'
+        :denomination: 'ESF'
+        :description: 'ECONOMIE SOCIALE ET FAMILIALE'
+        :fam: 'STT'
+        :cycle: 2
+      26:
+        :cod: 26
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'CAPA'
+        :description: 'CARROSSERIE PEINTURE AUTOMOBILE'
+        :fam: 'STT'
+        :cycle: 1
+      27:
+        :cod: 27
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'COOM'
+        :description: 'CONSTRUCTION ET OUVRAGE MÉTALLIQUE'
+        :fam: 'IND'
+        :cycle: 1
+      28:
+        :cod: 28
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MAEL'
+        :description: 'MÉCANIQUE AUTOMOBILE ÉLECTRICITÉ'
+        :fam: 'IND'
+        :cycle: 1
+      29:
+        :cod: 29
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MAIN'
+        :description: 'MÉCANIQUE AUTOMOBILE INJECTION'
+        :fam: 'IND'
+        :cycle: 1
+      30:
+        :cod: 30
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MARE'
+        :description: 'MÉCANIQUE AUTOMOBILE DE REPARATION'
+        :fam: 'IND'
+        :cycle: 1
+      31:
+        :cod: 31
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MEFA'
+        :description: 'MÉCANIQUE DE FABRICATION'
+        :fam: 'IND'
+        :cycle: 1
+      32:
+        :cod: 32
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MEFE'
+        :description: 'MÉTAUX EN FEUILLES'
+        :fam: 'IND'
+        :cycle: 1
+      33:
+        :cod: 33
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'BIJO'
+        :description: 'BIJOUTERIE'
+        :fam: 'IND'
+        :cycle: 2
+      34:
+        :cod: 34
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'E'
+        :description: 'TECHNIQUE ET MATHEMATIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      35:
+        :cod: 35
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'F1'
+        :description: 'FABRICATION MECANIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      36:
+        :cod: 36
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MA'
+        :description: 'MÉCANIQUE AUTOMOBILE'
+        :fam: 'IND'
+        :cycle: 2
+      37:
+        :cod: 37
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MEM'
+        :description: 'MAINTENANCE ELECTROMECANIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      38:
+        :cod: 38
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MF/CM'
+        :description: 'MÉTAUX EN FEUILLES ET CONSTRUCTION MÉTALLIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      39:
+        :cod: 39
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'AICB'
+        :description: 'AIDE CHIMIQUE BIOLOGISTE'
+        :fam: 'IND'
+        :cycle: 1
+      40:
+        :cod: 40
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'AICI'
+        :description: 'AIDE CHIMIQUE INDUSTRIELLE'
+        :fam: 'IND'
+        :cycle: 1
+      41:
+        :cod: 41
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'ELEQ'
+        :description: 'ÉLECTRICITÉ  D''EQUIPEMENT'
+        :fam: 'IND'
+        :cycle: 1
+      42:
+        :cod: 42
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'ELME'
+        :description: 'ÉLECTRO MÉCANIQUE'
+        :fam: 'IND'
+        :cycle: 1
+      43:
+        :cod: 43
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'ELNI'
+        :description: 'ÉLECTRONIQUE'
+        :fam: 'IND'
+        :cycle: 1 
+      44:
+        :cod: 44
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'FRCL'
+        :description: 'FROID ET CLIMATISATION'
+        :fam: 'IND'
+        :cycle: 1   
+      45:
+        :cod: 45
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'CI'
+        :description: 'CHIMIE INDUSTRIELLE'
+        :fam: 'IND'
+        :cycle: 2 
+      46:
+        :cod: 46
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'F2'
+        :description: 'ÉLECTRONIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      47:
+        :cod: 47
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'F3'
+        :description: 'ÉLECTROTECHNIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      48:
+        :cod: 48
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'F5'
+        :description: 'FROID ET CLIMATISATION'
+        :fam: 'IND'
+        :cycle: 2
+      49:
+        :cod: 49
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'F5'
+        :description: 'FROID ET CLIMATISATION'
+        :fam: 'IND'
+        :cycle: 2
+      50:
+        :cod: 50
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'F7'
+        :description: 'SCIENCE ET TECHNIQUE BIOLOGIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      51:
+        :cod: 51
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'F8'
+        :description: 'SCIENCE ET TECHNOLOGIE DE LA SANTÉ ET DU SOCIAL'
+        :fam: 'IND'
+        :cycle: 2
+      52:
+        :cod: 52
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'MEHB'
+        :description: 'MAINTENANCE DES EQUIPEMENTS HOSPITALIERS ET BIOMEDICAUX'
+        :fam: 'IND'
+        :cycle: 2
+      53:
+        :cod: 53
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'TECHNIQUES DE GÉNIE ÉLECTRIQUE'
+        :denomination: 'MISE'
+        :description: 'MAINTENANCE AND INSTALLATION OF ELECTRONICS SYSTEMS'
+        :fam: 'IND'
+        :cycle: 2
+      54:
+        :cod: 54
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'CARR'
+        :description: 'CARRELAGE'
+        :fam: 'IND'
+        :cycle: 1
+      55:
+        :cod: 55
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'DEBA'
+        :description: 'DESSIN EN BATIMENT'
+        :fam: 'IND'
+        :cycle: 1
+      56:
+        :cod: 56
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MACO'
+        :description: 'MACONNERIE'
+        :fam: 'IND'
+        :cycle: 1
+      57:
+        :cod: 57
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MENU'
+        :description: 'MENUISERIE'
+        :fam: 'IND'
+        :cycle: 1
+      58:
+        :cod: 58
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'EF'
+        :description: 'EXPLOITATION FORESTIERE'
+        :fam: 'IND'
+        :cycle: 2
+      59:
+        :cod: 59
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F4BA'
+        :description: 'GÉNIE CIVIL BÂTIMENT'
+        :fam: 'IND'
+        :cycle: 2
+      60:
+        :cod: 60
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F4BE'
+        :description: 'BUREAU D''ÉTUDES'
+        :fam: 'IND'
+        :cycle: 2
+      61:
+        :cod: 61
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F4TP'
+        :description: 'TRAVAUX PUBLICS'
+        :fam: 'IND'
+        :cycle: 2
+      62:
+        :cod: 62
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'GTTO'
+        :description: 'GEOMETRE TOPOGRAPHE'
+        :fam: 'IND'
+        :cycle: 2
+      63:
+        :cod: 63
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'IB'
+        :description: 'INDUSTRIE DU BOIS'
+        :fam: 'IND'
+        :cycle: 2
+      64:
+        :cod: 64
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'IS'
+        :description: 'INSTALLATION SANITAIRE'
+        :fam: 'IND'
+        :cycle: 2
+      65:
+        :cod: 65
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MEB'
+        :description: 'MENUISERIE EBENISTERIE'
+        :fam: 'IND'
+        :cycle: 2
+      66:
+        :cod: 66
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'COME'
+        :description: 'COUTURE SUR MESURE'
+        :fam: 'IND'
+        :cycle: 1
+      67:
+        :cod: 67
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'DECOR'
+        :description: 'DECORATION'
+        :fam: 'IND'
+        :cycle: 1
+      68:
+        :cod: 68
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'ESCO'
+        :description: 'ESTHETIQUE COIFFURE'
+        :fam: 'IND'
+        :cycle: 1
+      69:
+        :cod: 69
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'IH'
+        :description: 'INDUSTRIE D''HABILLEMENT'
+        :fam: 'IND'
+        :cycle: 2
+        
+
+    :cycles:
+      21:
+        :cod: 'E_TE_C1'
+        :denomination: 'PREMIER CYCLE'
+        :duration: '4 ANS'
+        :phases:
+          211: 
+            :cod: 211
+            :duration: '4 ANS'
+            :certificate: 'EXAMEN DE L''ENSEIGNEMENT TECHNIQUE ET PROFESSIONNEL NIVEAU INTERMÉDIAIRE'
+            :class_levels:
+              2111:
+                :cod: 2111
+                :denomination: 'FROM 1'
+              2112:
+                :cod: 2112
+                :denomination: 'FROM 2'
+              2113:
+                :cod: 2113
+                :denomination: 'FROM 3'
+              2114:
+                :cod: 2114
+                :denomination: 'FROM 4'
+      22:
+        :cod: 'E_TE_C2'
+        :denomination: 'SECOND CYCLE'
+        :duration: '3 ANS'
+        :phases:
+          221: 
+            :cod: 221
+            :duration: '3 ANS'
+            :certificate: 'EXAMEN DE L''ENSEIGNEMENT TECHNIQUE ET PROFESSIONNEL NIVEAU INTERMÉDIAIRE'
+            :class_levels:
+              2211:
+                :cod: 2211
+                :denomination: 'FROM 5'
+              2212:
+                :cod: 2212
+                :denomination: 'FROM 6'
+              2213:
+                :cod: 2213
+                :denomination: 'FROM 7'
+  3:
+    :cod: 'F_GE'
+    :denomination: 'GENERAL EDUCATION'
+    :system: 'SOUS SYSTÈME FRANCOPHONE'
+    :specialties:
+      31:
+        :cod: 31
+        :group: 'A'
+        :denomination: 'A1'
+        :description: 'LETTRES, LATIN ET GREC'
+      32:
+        :cod: 32
+        :group: 'A'
+        :denomination: 'A2'
+        :description: 'LETTRES, LATIN ET LANGUES VIVANTES II'
+      33:
+        :cod: 33
+        :group: 'A'
+        :denomination: 'A3'
+        :description: 'LETTRES ET LATIN'
+      34:
+        :cod: 34
+        :group: 'A'
+        :denomination: 'A4'
+        :description: 'LITTÉRATURE, LANGUE VIVANTE II ET PHILOSOPHIE'
+      35:
+        :cod: 35
+        :group: 'A'
+        :denomination: 'A5'
+        :description: 'LANGUES VIVANTES II ET III'
+      36:
+        :cod: 36
+        :group: 'A'
+        :denomination: 'AC'
+        :description: 'ART CINÉMATOGRAPHIQUE'
+      37:
+        :cod: 37
+        :group: 'D'
+        :denomination: 'D'
+        :description: 'SCIENCES DE LA VIE ET DE LA TERRE ET MATHÉMATIQUES'
+      38:
+        :cod: 38
+        :group: 'C'
+        :denomination: 'C'
+        :description: 'MATHÉMATIQUES ET PHYSIQUE'
+      39:
+        :cod: 39
+        :group: 'TI'
+        :denomination: 'D'
+        :description: 'TECHNOLOGIES DE L''INFORMATION'
+      310:
+        :cod: 310
+        :group: 'BIL'
+        :denomination: 'BILINGUE'
+        :description: 'FRANÇAIS-ANGLAIS ET ANGLAIS-FRANÇAIS'
+    :cycles:
+      31:
+        :cod: 'F_GE_C1'
+        :denomination: 'PREMIER CYCLE'
+        :duration: '4 ANS'
+        :phases:
+          311: 
+            :cod: 311
+            :duration: '4 ANS'
+            :certificate: 'BEPC'
+            :class_levels:
+              311:
+                :cod: 311
+                :denomination: '6IÈME (SIXIÈME)'
+              312:
+                :cod: 312
+                :denomination: '5IÈME (CINQUIÈME)'
+              313:
+                :cod: 313
+                :denomination: '4IÈME (QUATRIÈME)'
+              314:
+                :cod: 314
+                :denomination: '3IÈME (TROISIÈME)'
+      32:
+        :cod: 'F_GE_C2'
+        :denomination: 'SECOND CYCLE'
+        :duration: '3 ANS'
+        :phases:
+          321: 
+            :cod: 321
+            :duration: '2 ANS'
+            :certificate: 'PROBATOIRE'
+            :class_levels:
+              3211:
+                :cod: 3211
+                :denomination: 'SECONDE'
+              3212:
+                :cod: 4212
+                :denomination: 'PREMIÈRE'
+          322: 
+            :cod: 322
+            :duration: '1 AN'
+            :certificate: 'BACCALAURÉAT'
+            :class_levels:
+              3221:
+                :cod: 3221
+                :denomination: 'TERMINAL'
+  4:
+    :cod: 'F_TE'
+    :denomination: 'ENSEIGNEMENT TECHNIQUE ET PROFESSIONNEL'
+    :description: ''
+    :system: 'SOUS SYSTÈME FRANCOPHONE'
+    :specialties:
+      41:
+        :cod: 41
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'AAT'
+        :description: 'ACCEUIL ET ANIMATION TOURISTIQUE'
+        :fam: 'STT'
+        :cycle: 2
+      42:
+        :cod: 42
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'ACA'
+        :description: 'ACTION ET COMMUNICATION ADMINISTRATIVE'
+        :fam: 'STT'
+        :cycle: 2
+      43:
+        :cod: 43
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'ACC'
+        :description: 'ACTION ET COMMUNICATION COMMERCIALE'
+        :fam: 'STT'
+        :cycle: 2
+      44:
+        :cod: 44
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'AV'
+        :description: 'AGENCE DE VOYAGE'
+        :fam: 'STT'
+        :cycle: 2
+      45:
+        :cod: 45
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'BPA'
+        :description: 'BOULANGERIE PÂTISSERIE'
+        :fam: 'STT'
+        :cycle: 2
+      46:
+        :cod: 46
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'CG'
+        :description: 'COMPTABILITÉ DE GESTION'
+        :fam: 'STT'
+        :cycle: 2
+      47:
+        :cod: 47
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'CU'
+        :description: 'CUISINE'
+        :fam: 'STT'
+        :cycle: 2
+      48:
+        :cod: 48
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'ESCOM'
+        :description: 'EMPLOYÉ DES SERVICES COMPTABLES'
+        :fam: 'STT'
+        :cycle: 1
+      49:
+        :cod: 49
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'ESF'
+        :description: 'ECONOMIE SOCIALE ET FAMILIALE'
+        :fam: 'STT'
+        :cycle: 1
+      50:
+        :cod: 50
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'ESF'
+        :description: 'ECONOMIE SOCIALE ET FAMILIALE'
+        :fam: 'STT'
+        :cycle: 2
+      51:
+        :cod: 51
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'ESFI'
+        :description: 'EMLOYE DES SERVICES FINANCIERS'
+        :fam: 'STT'
+        :cycle: 1
+      52:
+        :cod: 52
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'FIG'
+        :description: 'FISCALITE ET INFORMATIQUE DE GESTION'
+        :fam: 'STT'
+        :cycle: 2
+      53:
+        :cod: 53
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'HE'
+        :description: 'HEBERGEMENT'
+        :fam: 'STT'
+        :cycle: 2
+      54:
+        :cod: 54
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'HO'
+        :description: 'HÔTELLERIE'
+        :fam: 'STT'
+        :cycle: 2
+      55:
+        :cod: 55
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'RE'
+        :description: 'RESTAURATION'
+        :fam: 'STT'
+        :cycle: 1
+      56:
+        :cod: 56
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'SEBU'
+        :description: 'SECRÉTARIAT ET BUREAUTIQUE'
+        :fam: 'STT'
+        :cycle: 1
+      57:
+        :cod: 57
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'SEME'
+        :description: 'SECRÉTARIAT MEDICAL'
+        :fam: 'STT'
+        :cycle: 1
+      58:
+        :cod: 58
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'SES'
+        :description: 'SCIENCES ÉCONOMIQUES ET SOCIALES'
+        :fam: 'STT'
+        :cycle: 2
+      59:
+        :cod: 59
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'SH'
+        :description: 'SERVICE HÔTELIER'
+        :fam: 'STT'
+        :cycle: 1
+      60:
+        :cod: 60
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'TO'
+        :description: 'TOURISME'
+        :fam: 'STT'
+        :cycle: 2
+      61:
+        :cod: 61
+        :group: 'SCIENCES ET TECHNOLOGIES DU TERTIAIRE'
+        :denomination: 'VENTE'
+        :description: 'VENDEUR'
+        :fam: 'STT'
+        :cycle: 1
+      62:
+        :cod: 62
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'AFSCI'
+        :description: 'AFFUTEUR SCIEUR'
+        :fam: 'IND'
+        :cycle: 1
+      63:
+        :cod: 63
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'AJUS'
+        :description: 'AJUSTAGE'
+        :fam: 'IND'
+        :cycle: 1
+      64:
+        :cod: 64
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'CAPA'
+        :description: 'CARROSSERIE PEINTURE AUTOMOBILE'
+        :fam: 'IND'
+        :cycle: 1
+      65:
+        :cod: 65
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'COOM'
+        :description: 'CONSTRUCTION ET OUVRAGE MÉTALLIQUE'
+        :fam: 'IND'
+        :cycle: 1
+      66:
+        :cod: 66
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MAEL'
+        :description: 'MÉCANIQUE AUTOMOBILE ÉLECTRICITÉ'
+        :fam: 'IND'
+        :cycle: 1
+      67:
+        :cod: 67
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MAIN'
+        :description: 'MÉCANIQUE AUTOMOBILE INJECTION'
+        :fam: 'IND'
+        :cycle: 1
+      68:
+        :cod: 68
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MARE'
+        :description: 'MÉCANIQUE AUTOMOBILE DE REPARATION'
+        :fam: 'IND'
+        :cycle: 1
+      69:
+        :cod: 69
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MEFA'
+        :description: 'MÉCANIQUE DE FABRICATION'
+        :fam: 'IND'
+        :cycle: 1
+      70:
+        :cod: 70
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MEFE'
+        :description: 'MÉTAUX EN FEUILLES'
+        :fam: 'IND'
+        :cycle: 1
+      71:
+        :cod: 71
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'RECA'
+        :description: 'REPARATION CARROSSERIE AUTOMOBILE'
+        :fam: 'IND'
+        :cycle: 1
+      72:
+        :cod: 72
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'BIJO'
+        :description: 'BIJOUTERIE'
+        :fam: 'IND'
+        :cycle: 2
+      73:
+        :cod: 73
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'CM'
+        :description: 'CONSTRUCTION MECANIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      74:
+        :cod: 74
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'CMA-MVPL'
+        :description: 'CONSTRUCTION ET MAINTENANCE AUTOMOBILE OPTION MAINTENANCE VEHICULES POIDS LOURDS'
+        :fam: 'IND'
+        :cycle: 2
+      75:
+        :cod: 75
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'CMA-MVT'
+        :description: 'CONSTRUCTION ET MAINTENANCE AUTOMOBILE OPTION MAINTENANCE VEHICULES DE TOURISME'
+        :fam: 'IND'
+        :cycle: 2
+      76:
+        :cod: 76
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'E'
+        :description: 'TECHNIQUE ET MATHEMATIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      78:
+        :cod: 78
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'F1'
+        :description: 'FABRICATION MECANIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      79:
+        :cod: 79
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MA'
+        :description: 'MÉCANIQUE AUTOMOBILE'
+        :fam: 'IND'
+        :cycle: 2
+      80:
+        :cod: 80
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MEM'
+        :description: 'MAINTENANCE ELECTROMECANIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      81:
+        :cod: 81
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE MÉCANIQUE'
+        :denomination: 'MF/CM'
+        :description: 'MÉTAUX EN FEUILLES ET CONSTRUCTION MÉTALLIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      82:
+        :cod: 82
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'AICB'
+        :description: 'AIDE CHIMIQUE BIOLOGISTE'
+        :fam: 'IND'
+        :cycle: 1
+      83:
+        :cod: 83
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'AICI'
+        :description: 'AIDE CHIMIQUE INDUSTRIELLE'
+        :fam: 'IND'
+        :cycle: 1
+      84:
+        :cod: 84
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'ELAU'
+        :description: 'ELECTRCITE AUTOMOBILE'
+        :fam: 'IND'
+        :cycle: 1
+      85:
+        :cod: 85
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'ELBA'
+        :description: 'ÉLECTRICITÉ BÂTIMENT'
+        :fam: 'IND'
+        :cycle: 1
+      86:
+        :cod: 86
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'ELEQ'
+        :description: 'ÉLECTRICITÉ  D''EQUIPEMENT'
+        :fam: 'IND'
+        :cycle: 1
+      87:
+        :cod: 87
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'ELME'
+        :description: 'ÉLECTRO MÉCANIQUE'
+        :fam: 'IND'
+        :cycle: 1
+      88:
+        :cod: 88
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'ELNI'
+        :description: 'ÉLECTRONIQUE'
+        :fam: 'IND'
+        :cycle: 1
+      89:
+        :cod: 89
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'FRCL'
+        :description: 'FROID ET CLIMATISATION'
+        :fam: 'IND'
+        :cycle: 1
+      90:
+        :cod: 90
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'CI'
+        :description: 'CHIMIE INDUSTRIELLE'
+        :fam: 'IND'
+        :cycle: 2
+      91:
+        :cod: 91
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F2'
+        :description: 'ELECTRONIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      92:
+        :cod: 92
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F3'
+        :description: 'ÉLECTROTECHNIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      93:
+        :cod: 93
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F5'
+        :description: 'FROID ET CLIMATISATION'
+        :fam: 'IND'
+        :cycle: 2
+      94:
+        :cod: 94
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F6-BIPE'
+        :description: 'GÉNIE CHIMIQUE OPT BIOPROCEDES ET PETROCHIMIE'
+        :fam: 'IND'
+        :cycle: 2
+      95:
+        :cod: 95
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F6-COPH'
+        :description: 'GÉNIE CHIMIQUE OPT COSMÉTIQUE ET PHARMACIE'
+        :fam: 'IND'
+        :cycle: 2
+      96:
+        :cod: 96
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F6-MIPE'
+        :description: 'GÉNIE CHIMIQUE OPT MINES ET PETROLES'
+        :fam: 'IND'
+        :cycle: 2
+      97:
+        :cod: 97
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F7'
+        :description: 'SCIENCE ET TECHNIQUE BIOLOGIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      98:
+        :cod: 98
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F8'
+        :description: 'SCIENCE ET TECHNOLOGIE DE LA SANTÉ ET DU SOCIAL'
+        :fam: 'IND'
+        :cycle: 2
+      99:
+        :cod: 99
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MAV'
+        :description: 'MAINTENANCE AUDIOVISUELLE'
+        :fam: 'IND'
+        :cycle: 2
+      100:
+        :cod: 100
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MEHB'
+        :description: 'MAINTENANCE DES EQUIPEMENTS HOSPITALIERS ET BIOMEDICAUX'
+        :fam: 'IND'
+        :cycle: 2
+      101:
+        :cod: 101
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MISE'
+        :description: 'MAINTENANCE ET INSTALLATION DES SYSTEMES ELECTRONIQUES'
+        :fam: 'IND'
+        :cycle: 2
+      102:
+        :cod: 102
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'CARR'
+        :description: 'CARRELAGE'
+        :fam: 'IND'
+        :cycle: 1
+      103:
+        :cod: 103
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'CERAM'
+        :description: 'CERAMIQUE'
+        :fam: 'IND'
+        :cycle: 1
+      104:
+        :cod: 104
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'DEBA'
+        :description: 'DESSIN EN BATIMENT'
+        :fam: 'IND'
+        :cycle: 1
+      105:
+        :cod: 105
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'INSA'
+        :description: 'INSTALLATION SANITAIRE'
+        :fam: 'IND'
+        :cycle: 1
+      106:
+        :cod: 106
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MACO'
+        :description: 'MACONNERIE'
+        :fam: 'IND'
+        :cycle: 1
+      107:
+        :cod: 107
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MENU'
+        :description: 'MENUISERIE'
+        :fam: 'IND'
+        :cycle: 1
+      108:
+        :cod: 108
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PA'
+        :description: 'PRODUCTION ANIMALE'
+        :fam: 'IND'
+        :cycle: 1
+      109:
+        :cod: 109
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PA-PPO'
+        :description: 'PRODUCTION ANIMALE OPTION PRODUCTEUR DE PORC'
+        :fam: 'IND'
+        :cycle: 1
+      110:
+        :cod: 110
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PA-PV'
+        :description: 'PRODUCTION ANIMALE OPTION PRODUCTEUR DE VOLAILLE'
+        :fam: 'IND'
+        :cycle: 1
+      111:
+        :cod: 111
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PV'
+        :description: 'PRODUCTION VÉGÉTALE'
+        :fam: 'IND'
+        :cycle: 1
+      112:
+        :cod: 112
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PV-PC'
+        :description: 'PRODUCTION VÉGÉTALE OPTION PRODUCTION DE CÉRÉALES'
+        :fam: 'IND'
+        :cycle: 1
+      113:
+        :cod: 113
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PV-PM'
+        :description: 'PRODUCTION VÉGÉTALE OPTION PRODUCTION MARAICHERS'
+        :fam: 'IND'
+        :cycle: 1
+      114:
+        :cod: 114
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'CERAM'
+        :description: 'CERAMIQUE'
+        :fam: 'IND'
+        :cycle: 2
+      115:
+        :cod: 115
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'CH'
+        :description: 'CHAUDRONNERIE'
+        :fam: 'IND'
+        :cycle: 2
+      116:
+        :cod: 116
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'CH-TI'
+        :description: 'CHAUDRAUNNERIE ET TUYAUTERIE INDUSTRIELLE'
+        :fam: 'IND'
+        :cycle: 2
+      117:
+        :cod: 117
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'EF'
+        :description: 'EXPLOITATION FORESTIERE'
+        :fam: 'IND'
+        :cycle: 2
+      118:
+        :cod: 118
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F4BA'
+        :description: 'GÉNIE CIVIL BÂTIMENT'
+        :fam: 'IND'
+        :cycle: 2
+      119:
+        :cod: 119
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F4BE'
+        :description: 'BUREAU D''ÉTUDES'
+        :fam: 'IND'
+        :cycle: 2
+      121:
+        :cod: 121
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'F4TP'
+        :description: 'TRAVAUX PUBLICS'
+        :fam: 'IND'
+        :cycle: 2
+      122:
+        :cod: 122
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'GTTO'
+        :description: 'GEOMETRE TOPOGRAPHE'
+        :fam: 'IND'
+        :cycle: 2
+      123:
+        :cod: 123
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'IB'
+        :description: 'INDUSTRIE DU BOIS'
+        :fam: 'IND'
+        :cycle: 2
+      124:
+        :cod: 124
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'IS'
+        :description: 'INSTALLATION SANITAIRE'
+        :fam: 'IND'
+        :cycle: 2
+      125:
+        :cod: 125
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MEA'
+        :description: 'MAINTENANCE DES EQUIPEMENTS AGRICOLES'
+        :fam: 'IND'
+        :cycle: 2
+      126:
+        :cod: 126
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'MEB'
+        :description: 'MENUISERIE EBENISTERIE'
+        :fam: 'IND'
+        :cycle: 2
+      127:
+        :cod: 127
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PA'
+        :description: 'PRODUCTION ANIMALE'
+        :fam: 'IND'
+        :cycle: 2
+      128:
+        :cod: 128
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PA-AQ'
+        :description: 'PRODUCTION ANIMALE OPTION AQUACULTURE'
+        :fam: 'IND'
+        :cycle: 2
+      129:
+        :cod: 129
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PA-PM'
+        :description: 'PRODUCTION ANIMALE OPTION PRODUCTION DE MONOGASTRIQUES'
+        :fam: 'IND'
+        :cycle: 2
+      130:
+        :cod: 130
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PA-PP'
+        :description: 'PRODUCTION ANIMALE OPTION PRODUCTION DE POLYGASTRIQUES'
+        :fam: 'IND'
+        :cycle: 2
+      131:
+        :cod: 131
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PV'
+        :description: 'PRODUCTION VÉGÉTALE'
+        :fam: 'IND'
+        :cycle: 2
+      132:
+        :cod: 132
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PV-PCLGC'
+        :description: 'PRODUCTION VÉGÉTALE OPTION PRODUCTION CÉRÉALES, DE LEGUMINEUSES A GRAINES ET DE CHAMPIGNONS'
+        :fam: 'IND'
+        :cycle: 2
+      133:
+        :cod: 133
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PV-PCP'
+        :description: 'PRODUCTION VÉGÉTALE OPTION PRODUCTIONDE CULTURES PERENNES'
+        :fam: 'IND'
+        :cycle: 2
+      134:
+        :cod: 134
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PV-PMF'
+        :description: 'PRODUCTION VÉGÉTALE OPTION PRODUCTION DE MARAICHERS ET FOURRAGE'
+        :fam: 'IND'
+        :cycle: 2
+      135:
+        :cod: 135
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'PV-PS'
+        :description: 'PRODUCTION VÉGÉTALE OPTION PRODUCTION PLANS ET SEMENCES'
+        :fam: 'IND'
+        :cycle: 2
+      136:
+        :cod: 136
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'TC-PA'
+        :description: 'TRANSFORMATION ET CONSERVATION DES PRODUITS AGROPASTORAUX'
+        :fam: 'IND'
+        :cycle: 2
+      137:
+        :cod: 137
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'TGF'
+        :description: 'TECHNIQUES  ET GESTION FORESTIERES'
+        :fam: 'IND'
+        :cycle: 2
+      138:
+        :cod: 138
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'GÉNIE CIVIL, DU GÉNIE DU BOIS ET DES TECHNIQUES AGRICOLES'
+        :denomination: 'TP'
+        :description: 'TRANSFORMATION DES PRODUITS'
+        :fam: 'IND'
+        :cycle: 2
+      139:
+        :cod: 139
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'COME'
+        :description: 'COUTURE SUR MESURE'
+        :fam: 'IND'
+        :cycle: 1
+      140:
+        :cod: 140
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'DECOR'
+        :description: 'DECORATION'
+        :fam: 'IND'
+        :cycle: 1
+      141:
+        :cod: 141
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'ESCO'
+        :description: 'ESTHETIQUE COIFFURE'
+        :fam: 'IND'
+        :cycle: 1
+      142:
+        :cod: 142
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'PEINT'
+        :description: 'PEINTURE'
+        :fam: 'IND'
+        :cycle: 1
+      143:
+        :cod: 143
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'SCULP'
+        :description: 'SCULPTURE'
+        :fam: 'IND'
+        :cycle: 1
+      144:
+        :cod: 144
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'BP CF'
+        :description: 'BP COUTURE FLOU'
+        :fam: 'IND'
+        :cycle: 2
+      145:
+        :cod: 145
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'IH'
+        :description: 'INDUSTRIE D''HABILLEMENT'
+        :fam: 'IND'
+        :cycle: 2
+      146:
+        :cod: 146
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'PEINT'
+        :description: 'PEINTURE'
+        :fam: 'IND'
+        :cycle: 2
+      147:
+        :cod: 147
+        :group: 'SCIENCES ET TECHNIQUES INDUSTRIELLES'
+        :sub_group: 'ARTS ET MODES'
+        :denomination: 'SCULP'
+        :description: 'SCULPTURE'
+        :fam: 'IND'
+        :cycle: 2
+    :cycles:
+      41:
+        :cod: 'F_TE_C1'
+        :denomination: 'PREMIER CYCLE'
+        :description: ''
+        :duration: '4 ANS'
+        :phases:
+          411: 
+            :cod: 411
+            :certificate: 'CAP'
+            :duration: '4 ANS'
+            :class_levels:
+              4111:
+                :cod: 4111
+                :denomination: 'PREMIÈRE ANNÉE'
+                :description: ''
+              4112:
+                :cod: 4112
+                :denomination: 'DEUXIÈME ANNÉE'
+                :description: ''
+              4113:
+                :cod: 41113
+                :denomination: 'TROISIÈME ANNÉE'
+                :description: ''
+              4114:
+                :cod: 4114
+                :denomination: 'QUATRIÈME ANNÉE'
+                :description: ''
+      42:
+        :cod: 'F_TE_C2'
+        :denomination: 'SECOND CYCLE'
+        :description: ''
+        :duration: '3 ANS'
+        :phases:
+          421: 
+            :cod: 421
+            :duration: '2 ANS'
+            :certificate: 'PROBATOIRE'
+            :class_levels:
+              4211:
+                :cod: 4211
+                :denomination: 'SECONDE'
+                :description: ''
+              4212:
+                :cod: 4212
+                :denomination: 'PREMIÈRE'
+                :description: ''
+          422: 
+            :cod: 422
+            :duration: '1 an'
+            :certificate: 'BACCALAURÉAT'
+            :class_levels:
+              4221:
+                :cod: 4221
+                :denomination: 'TERMINAL'
+                :description: ''
+
+
+

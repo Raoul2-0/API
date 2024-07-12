@@ -1,0 +1,28 @@
+
+  {
+  "type": "object",
+  "required": ["email","address", "telephone_1", "whatApp_number", "registration_number"],
+  "properties": {
+    "email": {
+      "type": ["string", "null"]
+    },
+    "address": {
+      "type": ["string", "null"]
+    },
+    "telephone_1": {
+      "type": ["string", "null"]
+    },
+    "telephone_2": {
+      "type": ["string", "null"]
+    },
+    "mobile_phone": {
+      "type": ["string", "null"]
+    },
+    "whatApp_number": {
+      "type": ["string", "null"]
+    },
+    "registration_number": {
+      "type": ["string", "null"]
+    }
+  }
+}

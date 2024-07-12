@@ -1,0 +1,58 @@
+:fr:
+  1:
+    :denomination: "Proviseur/principal"
+    :description: "Description du Proviseur/principal"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  2:
+    :denomination: "Censeur"
+    :description: "Description du censeur"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  3:
+    :denomination: "Surveillant général"
+    :description: "Description du Surveillant général"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  4:
+    :denomination: "Surveillant de secteur"
+    :description: "Description du Surveillant de secteur"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  5:
+    :denomination: "Professeur régulier"
+    :description: "Description du regular teacher"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  6:
+    :denomination: "Professeur temporaire"
+    :description: "Description du Professeur temporaire"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  7:
+    :denomination: "Professeur stagiaire"
+    :description: "Description du Professeur stagiaire"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  8:
+    :denomination: "Secrétaire du proviseur/principal"
+    :description: "Description du (de la) secretaire du proviseur/principal"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  9:
+    :denomination: "Secrétaire du censeur"
+    :description: "Description de la secretaire du censeur "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  10:
+    :denomination: "Econome"
+    :description: "Description de l'économe "
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  11:
+    :denomination: "Conseiller d'orientation"
+    :description: "Description du Conseiller d'orientation"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  12:
+    :denomination: "Infirmier/ière"
+    :description: "Description de Infirmier/ière"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  13:
+    :denomination: "Femme/Homme de ménage"
+    :description: "Description de la Femme de ménage"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  14:
+    :denomination: "Portier/Portière"
+    :description: "Description du  Portier/Portière"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+

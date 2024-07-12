@@ -1,0 +1,129 @@
+it:
+  pundit:
+    must_be_logged_in: "deve essere connesso"
+    default: "Non è possibile eseguire questa azione."
+    theme_policy:
+      create?: "Non puoi creare temi!"
+      update?: 'Non puoi modificare questo tema!'
+      destroy?: 'Non puoi cancellare un tema!'
+    school_policy:
+      update_jsonb?: "Non puoi aggiornare questa scuola!"
+    attachment_policy:
+      add_files?: 'Non puoi allegare file a questo oggetto!'
+    extra_activity_policy:
+      create?: "Non puoi creare attività!"
+      update?: "Non puoi modificare questa attività extra!"
+      destroy?: "Non puoi eliminare un'attività extra"
+    table_description_policy:
+      create?: 'Non puoi creare le table descriptions!'
+      update?: 'Non puoi modificare questo table description!'
+      destroy?: 'Non è possibile eliminare un table description!'
+  monitorings:
+    update_attributes_monitor_of_resources:
+      warming: "I seguenti ID %{wrong_ids} non corrispondono ad alcun record. Tutti i monitor associati ad altri ID sono stati aggiornati correttamente"
+      success: "Gli attributi dei monior aggiornati correttamente"
+  users:
+    unknown: "Utente inesistente"
+    update:
+      success: "%{user} aggiornato con successo"
+      error: "Si è verificato un errore durante l'aggiornamento di %{user}"
+    destroy: 
+      soft_deletion: "L'utente è stato cancellato correttamente."
+      permanent_deletion: "Questo utente è stato eliminato definitivamente."
+      warming: "Non sei autorizzato a eliminare questo utente."
+      error: "Si è verificato un errore durante l'eliminazione di questo utente."
+    add_role: 
+      role_exist: "L'utente ha già questo ruolo"
+      role_added: "Ruolo aggiunto con successo"
+      error: "Errore: forse questo utente non esiste"
+      not_admin_user: "Non è consentito assegnare un ruolo. Solo gli utenti amministratori possono assegnare un ruolo a un altro utente"
+    remove_role:
+      role_removed: "Ruolo rimosso con successo"
+      non_existent_role: "Questo ruolo non è stato assegnato a questo utente"
+      not_admin_user: "Non è consentito rimuovere un ruolo. Solo gli utenti amministratori possono rimuovere un ruolo a un altro utente"
+    
+  sessions:
+    unconfirmed: "Deve confermare il suo indirizzo email prima di continuare."
+    loginfailed: "L'e-mail non esiste o la password è errata"
+    inactive: "Il tuo account non è attualmente attivo. Per riattivarlo, contattare un amministratore all'indirizzo sysaitechnology@gmail.com"
+    inexistentPassword: "Password vuota. per favore inserisci la sua password"
+    notSuperAdmin: "Solo il super amministratore può accedere come un altro utente. Contatta il tuo amministratore"
+
+  registrations: 
+    mailSent: "Riceverà un'e-mail con le istruzioni su come confermare il tuo indirizzo e-mail in pochi minuti"
+    mailNotSent: "L'utente è stato creato con successo ma la mail per la conferma dell'indirizzo email non è stata inviata."
+    mailSentError: "Si verifica un errore durante la registrazione. Verifica i tuoi dati"
+    emailUsed: "Indirizzo email già utilizzato"
+    emailConfirmed: "Il tuo indirizzo email è stato confermato con successo"
+    emailAlreadyConfirmed: "Il tuo indirizzo email è già stato confermato, prova ad accedere"
+    
+  emailConfirmationInfo:
+    title: "conferma la tua email"
+    message1: "Clicca sul pulsante qui sotto per confermare il tuo indirizzo email. Se non hai creato un account con"
+    message2: ", puoi tranquillamente ignorare questa mail."
+    accountConfirm: "Conferma il mio account" 
+  
+  password_resets:
+    nonexistentemail: "Non c'è nessun utente con quell'indirizzo email"
+    mailSent: "E-mail inviata con le istruzioni per la reimpostazione della password"
+    mailSentError: "Si è verifica un errore durante la reimpostazione della password. Verifica i suoi dati o contatti un amministratore"
+    updatePasswordError: "Si verifica un errore durante l'aggiornamento della password. Riprovi più tardi o contatti un amministratore"
+    title: "reimposta la sua password"
+    message1: "Qualcuno ha richiesto di cambiare la sua password. Cliccare sul pulsante in basso per reimpostare la password. Il link non sarà più accessibile dopo 24 ore."
+    message2: "Se non l'ha richiesto, ignori questa email."
+    message3: "La sua password non cambierà finché non accede al link sopra e ne crea una nuova."
+    passwordConfirm: "Reimposta la mia password"
+    nonexistenttoken: "Nessun utente trovato o il link per reimpostare la password è scaduto. Prova a reimpostare di nuovo la password"
+    success: "La sua password è stata aggiornata con successo"
+    link_expired: "Il link per reimpostare la password è scaduto. Puo' inviare una nuova richiesta di ripristino."
+  
+  schools:
+    assign_theme:
+      success: "Tema assegnato con successo"
+      error: "Si è verificato un errore durante l'assegnazione del tema. Riprova più tardi o contatta un amministratore"
+    remove_theme:
+      success: "Tema rimosso con successo"
+      error: "Si è verificato un errore durante la rimozione del tema. Riprova più tardi o contatta un amministratore"
+    update_jsonb:
+      success: "Scuola aggiornata con successo"
+      error: "Si è verificato un errore durante l'aggiornamento di questa scuola. Riprova più tardi o contatta un amministratore"
+
+  courses:
+      add_teacher:
+        success: "Insegnante assegnato con successo"
+        error: "Si è verificato un errore durante l'assegnazione dell'insegnante. Riprovare più tardi o contattare un amministratore."
+        already_added: "Insegnante già aggiunto"
+        invalid: "Questo profilo non è un insegnante"
+      remove_teacher:
+        success: "Insegnante in pensione con successo"
+        error: "Si è verificato un errore durante la cancellazione dell'insegnante. Riprovare più tardi o contattare un amministratore."
+        not_found: "Insegnante non trovato"
+      main_teacher:
+        success: "Stato modificato con successo"
+        error: "Si è verificato un errore durante la modifica dello stato dell'insegnante. Riprovare più tardi o contattare un amministratore."
+        not_found_or_not_main: "L'insegnante non è reperibile o non è l'insegnante principale"
+        invalid: "Questo profilo non è un insegnante"
+
+  attachments:
+    add_files:
+      success: "file allegati correttamente"
+      error: "Si è verificato un errore durante l'allegamento dei file"
+  
+  resource:
+    unknown: "%{resource_name} non trovato"
+    update:
+      success: "%{resource_name} aggiornato con successo"
+      error: "Si è verificato un errore imprevisto durante l'aggiornamento di questo %{resource_name}"
+    destroy:
+      success: "%{resource_name} cancellato con successo"
+      error: "Si è verificato un errore imprevisto durante l'eliminazione di questo %{resource_name}"
+    destroys:
+      success: ""
+      warming: "tutti i %{resource_name} sono stati eliminati con successo"
+      error: "Si è verificato un errore imprevisto durante l'eliminazione di questi %{resource_name}"
+    
+  classroom:
+    create:
+      cannot_be_assigned_to_local: "Il locale selezionato non può essere assegnato alla classe. Il numero di studenti è superiore alla capienza del locale."
+  evaluation:
+    cannot_be_assigned_to_local: "La sala scelta non è disponibile in questa data e/o fascia oraria."

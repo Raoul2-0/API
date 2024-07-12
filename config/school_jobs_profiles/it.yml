@@ -1,0 +1,58 @@
+:it:
+  1:
+    :denomination: "Preside"
+    :description: "Descrizione del Preside"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  2:
+    :denomination: "dirigente scolastico"
+    :description: "Descrizione del dirigente scolastico"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  3:
+    :denomination: "Supervisore generale"
+    :description: "Descrizione del Supervisore generale"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  4:
+    :denomination: "Supervisore di settore"
+    :description: "Descrizione del Supervisore di settore"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  5:
+    :denomination: "Insegnante regolare"
+    :description: "Descrizione dell'insegnante regolare"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  6:
+    :denomination: "Insegnante a tempo determinato"
+    :description: "Descrizione dell'insegnante a tempo determinato"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  7:
+    :denomination: "Insegnante tirocinante"
+    :description: "Descrizione dell'insegnante tirocinante"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  10:
+    :denomination: "Segretario/a del preside"
+    :description: "Descrizione della segretaria del preside"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  11:
+    :denomination: "Segretario del dirigente scolastico"
+    :description: "Descrizione Segretario del dirigente scolastico"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  12:
+    :denomination: "Ragioniere"
+    :description: "Descrizione del Ragioniere"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  13:
+    :denomination: "Consigliere di orientamento"
+    :description: "Descrizione del Consigliere di orientamento"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  14:
+    :denomination: "Infermiera"
+    :description: "Descrione dell'Infermiera"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  15:
+    :denomination: "Donna delle pulizie"
+    :description: "Descrizione della Donna delle pulizie"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+  16:
+    :denomination: "Portiere"
+    :description: "Descrizione del Portiere"
+    :choice: 3 # 1=job, 2=profile, 3=job & profile
+

@@ -1,0 +1,131 @@
+
+fr:
+  pundit:
+    must_be_logged_in: "doit être connecté/e"
+    default: "Vous ne pouvez pas effectuer cette action."
+    theme_policy:
+      create?: 'Vous ne pouvez pas créer de themes !'
+      update?: 'Vous ne pouvez pas modifier ce theme !'
+      destroy?: 'Vous ne pouvez pas supprimer un theme !'
+    school_policy:
+      update_jsonb?: "vous ne pouvez pas modifier cette école!"
+    attachment_policy:
+      add_files?: "Vous ne pouvez pas attacher de fichiers à cet objet!"
+    extra_activity_policy:
+      create?: 'Vous ne pouvez pas créer les extra activités !'
+      update?: 'Vous ne pouvez pas modifier cet extra activité !'
+      destroy?: 'Vous ne pouvez pas supprimer une extra activité !'
+    table_description_policy:
+      create?: 'Vous ne pouvez pas créer les table descriptions !'
+      update?: 'Vous ne pouvez pas modifier ce table description !'
+      destroy?: 'Vous ne pouvez pas supprimer un table description !'
+  
+  monitorings:
+    update_attributes_monitor_of_resources:
+      warming: "Les ids suivants %{wrong_ids} ne correspondent à aucun enregistrement. Tous les moniteurs associés à d'autres ids ont été mis à jour avec succès"
+      success: "Les attributs des moniteurs mis à jour avec succès"
+  users:
+    unknown: "%Utilisateur inexistant"
+    update:
+      success: "%{user} mis à jour avec succès"
+      error: "Une erreur s'est produite lors de la mise à jour de l'%{user}"
+    destroy: 
+      soft_deletion: "L'utilisateur a été supprimé avec succès."
+      permanent_deletion: "Cet utilisateur a été définitivement supprimé."
+      warming: "Vous n'êtes pas autorisé à supprimer cet utilisateur."
+      error: "Une erreur s'est produite lors de la suppression de cet utilisateur."
+    add_role:
+      role_exist: "L'utilisateur a déjà ce rôle"
+      role_added: "Rôle ajouté avec succès"
+      error: "Erreur : cet utilisateur n'existe peut-être pas"
+      not_admin_user: "Non autorisé à attribuer un rôle. Seuls les utilisateurs administrateurs peuvent attribuer un rôle à un autre utilisateur"
+    remove_role:
+      role_removed: "Rôle supprimé avec succès"
+      non_existent_role: "Ce rôle n'a pas été attribué à cet utilisateur"
+      not_admin_user: "Non autorisé à ajouter un rôle. Seuls les utilisateurs administrateurs peuvent ajouter un rôle à un autre utilisateur"
+  sessions:
+    unconfirmed: "Vous devez confirmer votre adresse e-mail avant de continuer"
+    loginfailed: "E-mail inexistant ou le mot de passe est incorrect"
+    inactive: "Votre compte n'est pas actif actuellement. Pour le réactiver, veuillez contacter un administrateur à sysaitechnology@gmail.com"
+    inexistentPassword: "Mot de passe vide. Veuillez insérer votre mot de passe"
+    notSuperAdmin: "Seul le super administrateur peut se connecter en tant qu'autre utilisateur. Veuillez contacter votre administrateur"
+  
+  registrations:
+    mailSent: "Vous recevrez un e-mail avec des instructions pour confirmer votre adresse e-mail dans quelques minutes"
+    mailNotSent: "L'utilisateur a été créé avec succès mais la mail de confirmation de l'adresse e-mail n'a pas été envoyée."
+    mailSentError: "Une erreur s'est produite lors de l'inscription. Vérifiez vos coordonnées"
+    emailUsed: "Adresse e-mail déjà utilisée"
+    emailConfirmed: "Votre adresse e-mail a été confirmée avec succès"
+    emailAlreadyConfirmed: "Votre adresse e-mail a déjà été confirmée, veuillez essayer de vous connecter"
+    
+  emailConfirmationInfo:
+    title: "Confirmez votre email"
+    message1: "Cliquez sur le bouton ci-dessous pour confirmer votre adresse e-mail. Si vous n'avez pas créé de compte avec"
+    message2: ", vous pouvez simplement ignorer ce mail."
+    accountConfirm: "Confirmer mon compte"
+  
+  password_resets:
+    nonexistentemail: "Il n'y a aucun utilisateur avec cette adresse e-mail"
+    mailSent: "E-mail envoyé avec les instructions de réinitialisation du mot de passe"
+    mailSentError: "Une erreur s'est produite lors de la réinitialisation de votre mot de passe. Vérifiez vos coordonnées ou contactez un administrateur"
+    updatePasswordError: "Une erreur se produit lors de la mise à jour du mot de passe. Réessayez plus tard ou contactez un administrateur"
+    title: "Réinitialisez votre mot de passe"
+    message1: "Quelqu'un a demandé à modifier votre mot de passe. Vous pouvez le faire via le lien ci-dessous. Le lien ne sera plus accessible après  24 heures."
+    message2: "Si vous ne l'avez pas demandé, veuillez ignorer cet e-mail."
+    message3: "Votre mot de passe ne changera pas tant que vous n'aurez pas accédé au lien ci-dessus et créé un nouveau."
+    passwordConfirm: "Réinitialiser mon mot de passe"
+    nonexistenttoken: "Aucun utilisateur trouvé ou le lien de réinitialisation du mot de passe a expiré. Essayez à nouveau de réinitialiser le mot de passe"
+    success: "Votre mot de passe a été mis à jour avec succès"
+    link_expired: "Le lien de réinitialisation de votre mot de passe est expiré. Veuillez soumettre une nouvelle demande de réinitialisation"
+
+  schools:
+      assign_theme:
+        success: "Thème assigné avec succès"
+        error: "Une erreur s'est produite lors de l'assignation du thème. Veuillez réessayer plus tard ou contacter un administrateur"
+      remove_theme:
+        success: "Thème supprimé avec succès"
+        error: "Une erreur s'est produite lors de suppression du thème. Veuillez réessayer plus tard ou contacter un administrateur"
+      update_jsonb:
+        success: "L'école a été modifié avec succès"
+        error: "Une erreur s'est produite lors de la modification de cette école. Veuillez réessayer plus tard ou contacter un administrateur"
+
+  courses:
+      add_teacher:
+        success: "Enseignant assigné avec succès"
+        error: "Une erreur s'est produite lors de l'assignation de l'enseignant. Veuillez réessayer plus tard ou contacter un administrateur"
+        already_added: "Enseignant déjà ajouté"
+        invalid: "Ce profil n'est pas un enseignant"
+      remove_teacher:
+        success: "Enseignant supprimé avec succès"
+        error: "Une erreur s'est produite lors de suppression de l'enseignant. Veuillez réessayer plus tard ou contacter un administrateur"
+        not_found: "Enseignant introuvable"
+      main_teacher:
+        success: "Status changé avec succès"
+        error: "Une erreur s'est produite lors du changement de status de l'enseignant. Veuillez réessayer plus tard ou contacter un administrateur"
+        not_found_or_not_main: "Enseignant est introuvable ou il n'est pas enseignant principal"
+        invalid: "Ce profil n'est pas un enseignant"
+      
+  attachments:
+    add_files:
+      success: "Fichiers attachés avec succès"
+      error: "Une erreur s'est produite lors de l'attachement des fichiers"
+  
+  
+  resource:
+    unknown: "%{resource_name} introuvable"
+    update:
+      success: "%{resource_name} modifié avec succès"
+      error: "Une erreur inattendue s'est produite lors de modification de cet {resource_name}"
+    destroy:
+      success: "%{resource_name} supprimé avec succès"
+      error: "Une erreur inattendue s'est produite lors de la suppression de cet {resource_name}"
+    destroys:
+      success: "Les %{resource_name} supprimés avec succès"
+      warming: "Aucun %{resource_name} trouvé"
+      error: "Des erreurs inattendues se sont produites lors de la suppression de ces %{resource_name}"
+  
+  classroom:
+    create:
+      cannot_be_assigned_to_local: "Le local sélectionné ne peut pas être affecté à la classe. Le nombre d'élèves est supérieur à la capacité d'accueil du local."
+  evaluation:
+    cannot_be_assigned_to_local: "La salle choisie est indisponible à cette date et/ou créneau horaire."

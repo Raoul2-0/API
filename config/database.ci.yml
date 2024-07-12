@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+
+development:
+  <<: *default
+  database: ci_development
+
+test:
+  <<: *default
+  database: ci_test
+  username: ci_test_user
+  password: ci_test_user_password

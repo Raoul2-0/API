@@ -1,0 +1,21 @@
+
+  {
+  "type": "object",
+  "properties": {
+    "country": {
+      "type": ["string", "null"]
+    },
+    "region": {
+      "type": ["string", "null"]
+    },
+    "city": {
+      "type": ["string", "null"]
+    },
+    "street": {
+      "type": ["string", "null"]
+    },
+    "po_box": {
+      "type": ["string", "null"]
+    }
+  }
+}

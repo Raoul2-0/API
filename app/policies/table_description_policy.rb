@@ -1,0 +1,2 @@
+class TableDescriptionPolicy < ResourcePolicy
+end

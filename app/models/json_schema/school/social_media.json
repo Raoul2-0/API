@@ -1,0 +1,31 @@
+
+  {
+  "type": "object",
+  "required": ["facebook","linkedIn"],
+  "properties": {
+    "facebook": {
+      "type": ["string", "null"]
+    },
+    "linkedIn": {
+      "type": ["string", "null"]
+    },
+    "instagram": {
+      "type": ["string", "null"]
+    },
+    "twitter": {
+      "type": ["string", "null"]
+    },
+    "youtube": {
+      "type": ["string", "null"]
+    },
+    "appStore": {
+      "type": ["string", "null"]
+    },
+    "playStore": {
+      "type": ["string", "null"]
+    },
+    "windowsStore": {
+      "type": ["string", "null"]
+    }
+  }
+}

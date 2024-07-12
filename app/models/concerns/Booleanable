@@ -1,0 +1,7 @@
+module Booleanable
+  extend ActiveSupport::Concern
+
+  included do
+    has_one :monitoring, :as => :booleanable
+  end
+end
